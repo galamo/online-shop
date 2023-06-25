@@ -7,6 +7,7 @@ import { Button } from 'primereact/button'
 import LoginForm from './components/pages/login'
 import NotFound from './components/pages/not-found'
 import RegistrationComponent from './components/pages/signup'
+import { ProtectedRoute } from './components/ui-components/protected-route'
 
 interface IRoute {
     path: string,
@@ -23,7 +24,7 @@ const routes: Array<IRoute> = [
     },
     {
         path: "/countries",
-        component: <CountriesPage />,
+        component: <ProtectedRoute><CountriesPage /></ProtectedRoute>,
         key: "countries",
         label: "Countries"
     },

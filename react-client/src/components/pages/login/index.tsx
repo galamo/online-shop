@@ -1,6 +1,9 @@
 import { useState } from 'react';
+import axios from "axios"
+import { useNavigate } from "react-router-dom"
 
 const LoginForm = () => {
+    const navigate = useNavigate()
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -12,14 +15,22 @@ const LoginForm = () => {
         setPassword(e.target.value);
     };
 
-    const handleSubmit = (e: any) => {
-        e.preventDefault();
-        // Handle form submission logic here
-        // e.g., send login request to the server
-    };
+    async function loginService() {
+        const loginPayload = {
+            email,
+            password
+        }
+        try {
+            const result = await axios.post("http://localhost:4000/auth/login", loginPayload)
+            localStorage.setItem("token", result.data.token)
+            setTimeout(() => { navigate("/countries") }, 3000)
+        } catch (ex) {
+            alert("Something went wrong!")
+        }
+    }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form >
             <h2>Login</h2>
             <div>
                 <label htmlFor="email">Email:</label>
@@ -41,7 +52,7 @@ const LoginForm = () => {
                     required
                 />
             </div>
-            <button type="submit">Login</button>
+            <button type="button" onClick={loginService}>Login</button>
         </form>
     );
 };
