@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import { Button } from 'primereact/button'
 import LoginForm from './components/pages/login'
 import NotFound from './components/pages/not-found'
+import RegistrationComponent from './components/pages/signup'
 
 interface IRoute {
     path: string,
@@ -25,6 +26,12 @@ const routes: Array<IRoute> = [
         component: <CountriesPage />,
         key: "countries",
         label: "Countries"
+    },
+    {
+        path: "/signup",
+        component: <RegistrationComponent />,
+        key: "signup",
+        label: "Signup"
     },
     {
         path: "*",
