@@ -5,10 +5,12 @@ import cartRouter from "./cart/route"
 import authRouter from "./auth/route"
 import jsonwebtoken from "jsonwebtoken"
 import dotenv from "dotenv"
+import cors from "cors"
 dotenv.config()
 
 const app = express();
 app.use(express.json())
+app.use(cors())
 app.get("/health-check", function (req, res, next) {
     res.send("api is ok")
 })
