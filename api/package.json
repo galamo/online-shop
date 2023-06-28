@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@types/uuid4": "^2.0.0",
+        "@types/winston": "^2.4.4",
         "axios": "^1.4.0",
         "chai": "^4.3.7",
         "cors": "^2.8.5",
@@ -20,6 +21,7 @@
         "nodemon": "^2.0.22",
         "ts-node": "^10.9.1",
         "uuid4": "^2.0.3",
+        "winston": "^3.9.0",
         "zod": "^3.21.4"
     },
     "devDependencies": {

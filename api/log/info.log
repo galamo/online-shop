@@ -1,0 +1,22 @@
+{"level":"info","message":"Api is running on Port 4000","service":"api","timestamp":"2023-06-28T17:35:54.523Z"}
+{"level":"info","message":{"a":1},"service":"api","timestamp":"2023-06-28T17:36:21.112Z"}
+{"level":"error","message":"User is not authorized","service":"api","timestamp":"2023-06-28T17:36:21.117Z"}
+{"level":"info","message":{"a":1},"service":"api","timestamp":"2023-06-28T17:36:23.871Z"}
+{"level":"error","message":"User is not authorized","service":"api","timestamp":"2023-06-28T17:36:23.872Z"}
+{"level":"info","message":"Api is running on Port 4000","service":"api","timestamp":"2023-06-28T17:36:58.565Z"}
+{"level":"info","message":"Api is running on Port 4000","service":"api","timestamp":"2023-06-28T17:37:15.599Z"}
+{"level":"info","message":"Api is running on Port 4000","service":"api","timestamp":"2023-06-28T17:37:30.814Z"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"4a7ee1a7-9dd9-4a3f-97d3-278d8b10a248","service":"api","timestamp":"2023-06-28T17:37:32.608Z"}
+{"level":"error","message":"User is not authorized","service":"api","timestamp":"2023-06-28T17:37:32.611Z"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"697bcdb7-fa39-487d-9193-c748e5ca95c4","service":"api","timestamp":"2023-06-28T17:37:43.945Z"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"698f81ad-1168-46f2-b22c-f3f553dcda35","service":"api","timestamp":"2023-06-28T17:37:46.980Z"}
+{"level":"info","message":"Api is running on Port 4000","service":"api","timestamp":"2023-06-28T17:38:50.873Z"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"2462ce21-da80-4137-a6ec-a9b36c34f387","service":"api","timestamp":"2023-06-28T17:38:51.438Z"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2462ce21-da80-4137-a6ec-a9b36c34f387","service":"api","timestamp":"2023-06-28T17:38:52.578Z"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"044aa47d-62be-4c63-b1fa-9a04b0e94e33","service":"api","timestamp":"2023-06-28T17:38:55.498Z"}
+{"level":"error","message":"User is not authorized","service":"api","timestamp":"2023-06-28T17:38:55.501Z"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"044aa47d-62be-4c63-b1fa-9a04b0e94e33","service":"api","timestamp":"2023-06-28T17:38:55.504Z"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"b090ebb5-70f6-4e21-9a29-e983f658cdc7","service":"api","timestamp":"2023-06-28T17:39:04.581Z"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"b090ebb5-70f6-4e21-9a29-e983f658cdc7","service":"api","timestamp":"2023-06-28T17:39:04.590Z"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"98bc4263-b677-42a3-8ff3-a3bd4cac7531","service":"api","timestamp":"2023-06-28T17:39:07.611Z"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"98bc4263-b677-42a3-8ff3-a3bd4cac7531","service":"api","timestamp":"2023-06-28T17:39:08.539Z"}
