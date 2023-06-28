@@ -1,7 +1,7 @@
 
 import express from "express"
-const router = express.Router();
-const uuid = require("uuid")
+const cartRouter = express.Router();
+import uuid4 from "uuid4"
 
 
 let cartsObjData = {};
@@ -9,16 +9,16 @@ let cartsObjData = {};
 
 
 
-router.post("/", function (req, res, next) {
+cartRouter.post("/", function (req, res, next) {
     console.log(req.body.user)
     if (!req.body.user) return res.status(400).send("missing user") //zod
-    const newCartId = uuid.v4()
+    const newCartId = uuid4()
     cartsObjData[newCartId] = { products: [] }
     return res.json({ message: "ok", cartId: newCartId })
 })
 
 
-router.get("/:cartId", function (req, res, next) {
+cartRouter.get("/:cartId", function (req, res, next) {
     const { cartId } = req.params;
     if (cartsObjData[cartId]) {
         return res.json(cartsObjData[cartId])
@@ -27,7 +27,7 @@ router.get("/:cartId", function (req, res, next) {
     }
 })
 
-router.put("/:cartId", function (req, res, next) {
+cartRouter.put("/:cartId", function (req, res, next) {
     const { productId } = req.body;
     const { cartId } = req.params
     if (cartsObjData[cartId]) {
@@ -41,4 +41,4 @@ router.put("/:cartId", function (req, res, next) {
 
 
 
-export default router;
+export { cartRouter };

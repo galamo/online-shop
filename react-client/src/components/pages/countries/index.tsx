@@ -5,11 +5,13 @@ import { InputText } from 'primereact/inputtext';
 import { Header } from "../../ui-components/header";
 import { CountriesList } from "./countriesList";
 import { WithLoading } from "../../ui-components/with-loading";
+import { useNavigate } from "react-router-dom";
 
 
-const countriesUrl: string = "https://restcountries.com/v3.1/all";
+const countriesUrl: string = "http://localhost:4000/countries";
 
 export default function CountriesPage() {
+    const navigate = useNavigate()
     const [countries, setCountries] = useState([])
     const [isCountriesLoading, setIsCountriesLoading] = useState(false)
     const [countryFilter, setCountryFilter] = useState("")
@@ -17,11 +19,16 @@ export default function CountriesPage() {
     async function getCountries() {
         try {
             setIsCountriesLoading(true)
-            const result = await axios.get(countriesUrl)
+            const result = await axios.get(countriesUrl, {
+                headers: {
+                    authorization: localStorage.getItem("token")
+                }
+            })
             const { data } = result;
             if (Array.isArray(result.data)) setCountries(data)
         } catch (ex) {
             alert("error")
+            navigate("/login")
         } finally {
             setIsCountriesLoading(false)
         }

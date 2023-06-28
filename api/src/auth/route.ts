@@ -6,9 +6,9 @@ import dotenv from "dotenv"
 dotenv.config()
 
 
-const router = express.Router();
-const users = [];
-export const tokens = []
+
+const authRouter = express.Router();
+const users = [{ email: "root@root.com", password: "admin" }];
 
 const signupSchema = zod.object({
     email: zod.string(),
@@ -32,11 +32,11 @@ function middlewareLogin(req, res, next) {
     }
 }
 
-router.post("/login", middlewareLogin, function (req, res, next) {
+authRouter.post("/login", middlewareLogin, function (req, res, next) {
     const { email, password } = req.body
     const user = users.find(currentUser => currentUser.password === password && currentUser.email === email)
     if (!user) return res.status(401).send("User is unauthorized")
-    const signedToken = jsonwebtoken.sign({ userName: email, role: "admin" }, process.env.SECRET)
+    const signedToken = jsonwebtoken.sign({ userName: email, role: "admin" }, process.env.SECRET, { expiresIn: '10s' })
     res.json({ token: signedToken })
 })
 
@@ -49,7 +49,7 @@ function middlewareSignIn(req, res, next) {
     }
 }
 
-router.post("/sign-up", middlewareSignIn, function (req, res, next) {
+authRouter.post("/sign-up", middlewareSignIn, function (req, res, next) {
     const user = users.find(u => u.email === req.body?.email?.toLowerCase())
     if (user) return res.status(409).send("user already exist")
     users.push(req.body)
@@ -57,4 +57,4 @@ router.post("/sign-up", middlewareSignIn, function (req, res, next) {
 })
 
 
-export default router;
+export { authRouter };

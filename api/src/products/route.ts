@@ -3,7 +3,7 @@ import express from "express"
 import products from "./data"
 import zod from "zod"
 // import { tokens } from "../auth/route";
-const router = express.Router();
+const productsRouter = express.Router();
 // tokens
 const productBody = zod.object({
     id: zod.number(),
@@ -13,19 +13,17 @@ const productBody = zod.object({
     category: zod.enum(["dairy", "drinks", "food", "fruits",])
 })
 
-
-
-router.get("/", function (req, res, next) {
+productsRouter.get("/", function (req, res, next) {
     return res.json(products)
 })
 
 
-router.get("/:id", function (req, res, next) {
+productsRouter.get("/:id", function (req, res, next) {
     return res.json(products) // filter by id
 })
 
 
-router.post("/new", function (req, res, next) {
+productsRouter.post("/new", function (req, res, next) {
 
     try {
         productBody.parse(req.body)
@@ -67,7 +65,7 @@ router.post("/new", function (req, res, next) {
 
 
 
-router.put("/:pid", function (req, res, next) {
+productsRouter.put("/:pid", function (req, res, next) {
     try {
         productBody.parse(req.body)
         const currentIndex = products.findIndex(cid => cid.id === +req.params.pid)
@@ -82,4 +80,4 @@ router.put("/:pid", function (req, res, next) {
 
 })
 
-export default router;
+export { productsRouter };

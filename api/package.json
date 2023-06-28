@@ -9,6 +9,7 @@
         "test-watch": "mocha --watch --delay=2000"
     },
     "dependencies": {
+        "@types/uuid4": "^2.0.0",
         "axios": "^1.4.0",
         "chai": "^4.3.7",
         "cors": "^2.8.5",
@@ -18,7 +19,7 @@
         "mocha": "^10.2.0",
         "nodemon": "^2.0.22",
         "ts-node": "^10.9.1",
-        "uuid": "^9.0.0",
+        "uuid4": "^2.0.3",
         "zod": "^3.21.4"
     },
     "devDependencies": {
