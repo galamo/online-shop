@@ -2,6 +2,7 @@
 import express from "express"
 const cartRouter = express.Router();
 import uuid4 from "uuid4"
+import { logger } from "../logger";
 
 
 let cartsObjData = {};
@@ -10,7 +11,7 @@ let cartsObjData = {};
 
 
 cartRouter.post("/", function (req, res, next) {
-    console.log(req.body.user)
+    logger.info({ message: "Create new Cart with Id" })
     if (!req.body.user) return res.status(400).send("missing user") //zod
     const newCartId = uuid4()
     cartsObjData[newCartId] = { products: [] }

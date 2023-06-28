@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
 
@@ -15,6 +15,10 @@ const LoginForm = () => {
         setPassword(e.target.value);
     };
 
+    useEffect(() => {
+        localStorage.removeItem("token")
+    }, [])
+
     async function loginService() {
         const loginPayload = {
             email,
@@ -23,7 +27,7 @@ const LoginForm = () => {
         try {
             const result = await axios.post("http://localhost:4000/auth/login", loginPayload)
             localStorage.setItem("token", result.data.token)
-            setTimeout(() => { navigate("/countries") }, 3000)
+            setTimeout(() => { navigate("/countries") }, 500)
         } catch (ex) {
             alert("Something went wrong!")
         }

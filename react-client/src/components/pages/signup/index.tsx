@@ -31,7 +31,7 @@ const RegistrationComponent = () => {
         try {
             const result = await axios.post("http://localhost:4000/auth/sign-up", signUpPayload)
             alert(result.data.message)
-            setTimeout(() => { navigate("/login") }, 3000)
+            setTimeout(() => { navigate("/login") }, 500)
         } catch (ex) {
             alert("Something went wrong!")
         }

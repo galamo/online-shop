@@ -32,7 +32,7 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 })
 
 app.listen(process.env.PORT, () => {
-    logger.info(`Api is running on Port ${process.env.PORT}`)
+    logger.info({ message: `Api is running on Port ${process.env.PORT}` })
 })
 
 function verifyAuthentication(req: Request, res: Response, next) {

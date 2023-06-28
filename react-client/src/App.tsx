@@ -2,7 +2,7 @@ import './App.css'
 import { useState } from "react"
 import { Header } from './components/ui-components/header'
 import CountriesPage from './components/pages/countries'
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Link, useNavigate } from "react-router-dom"
 import { Button } from 'primereact/button'
 import LoginForm from './components/pages/login'
 import NotFound from './components/pages/not-found'
@@ -20,7 +20,7 @@ const routes: Array<IRoute> = [
         path: "/login",
         component: <LoginForm />,
         key: "login",
-        label: "Login"
+
     },
     {
         path: "/countries",
@@ -43,9 +43,16 @@ const routes: Array<IRoute> = [
 
 
 function App() {
+    const navigate = useNavigate();
+    function logoutHandler() {
+        navigate("/login")
+    }
     return (
         <div>
-            <BrowserRouter>
+            <div style={{ width: "100%", top: 0, left: 0, position: "absolute", textAlign: "right" }}>
+                <Button onClick={logoutHandler}> Log Out</Button>
+            </div>
+            <div style={{ marginTop: "50px" }}>
                 {routes.filter(r => r.label).map((route: IRoute) => {
                     return <Link key={route.label} to={route.path} > {route.label} </Link>
                 })}
@@ -54,10 +61,11 @@ function App() {
                         return <Route path={route.path} key={route.key} element={route.component} />
                     })}
                 </Routes>
-            </BrowserRouter>
+            </div>
         </div>
     )
 }
+
 
 
 

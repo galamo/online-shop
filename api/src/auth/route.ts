@@ -40,7 +40,7 @@ authRouter.post("/login", middlewareLogin, function (req, res, next) {
         logger.error({ message: "User is not authorized" })
         return res.status(401).send("User is unauthorized")
     }
-    const signedToken = jsonwebtoken.sign({ userName: email, role: "admin" }, process.env.SECRET, { expiresIn: '8h' })
+    const signedToken = jsonwebtoken.sign({ userName: email, role: "admin" }, process.env.SECRET, { expiresIn: '10s' })
     res.json({ token: signedToken })
 })
 
