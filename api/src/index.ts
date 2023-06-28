@@ -3,6 +3,7 @@ import express, { Request, Response, NextFunction } from "express"
 import { productsRouter, cartRouter, authRouter, countriesRouter } from "./routes.index"
 import { addRequestId } from "./middleware/addRequestId"
 import { addRequestStarted } from "./middleware/addRequestStarted"
+import { addRequestFinished } from "./middleware/addRequestFinished"
 
 import jsonwebtoken from "jsonwebtoken"
 import dotenv from "dotenv"
@@ -14,6 +15,7 @@ app.use(express.json())
 app.use(cors())
 app.use(addRequestId)
 app.use(addRequestStarted)
+app.use(addRequestFinished)
 app.get("/health-check", function (req, res, next) {
     res.send("api is ok")
 })
