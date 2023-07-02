@@ -33,8 +33,8 @@ export default function CountriesPage() {
             setIsCountriesLoading(false)
         }
     }
-    useEffect(() => {
 
+    useEffect(() => {
         getCountries()
         return () => {
             console.log("Unmount!")

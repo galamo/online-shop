@@ -1,22 +1,50 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
 
 const LoginForm = () => {
     const navigate = useNavigate()
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+    const [email, setEmail] = useState('initEmail');
+    const [password, setPassword] = useState('initPassword');
+    // const testRef = useRef()
+    // console.log("SET EMAIL OR SET PASSWORD MADE RENDER - NOW LETS DECLARE : [handleEmailChange && handlePasswordChange] ")
 
-    const handleEmailChange = (e: any) => {
-        setEmail(e.target.value);
-    };
 
-    const handlePasswordChange = (e: any) => {
-        setPassword(e.target.value);
-    };
+    const handleEmailChangeCallback = useCallback((e: any) => {
+        setEmail(e.target.value)
+    }, [email])
+
+    const handlePasswordChangeCallback = useCallback(
+        (e: any) => {
+            console.log(`the passowrd is: ${e.target.value}`)
+            console.log(`the email is: ${email}`)
+            setPassword(e.target.value);
+        },
+        [password]
+    )
+
+    // const handleEmailChangeCallback = (e: any) => {
+    //     setEmail(e.target.value)
+    // }
+
+    // const handlePasswordChangeCallback = (e: any) => {
+    //     console.log(`the passowrd is: ${e.target.value}`)
+    //     console.log(`the email is: ${email}`)
+    //     setPassword(e.target.value);
+    // }
+
+
+
+
+    // const handlePasswordChange = (e: any) => {
+    //     setPassword(e.target.value);
+    // };
 
     useEffect(() => {
         localStorage.removeItem("token")
+        return () => {
+            console.log("Unmount Login Component Now!!!!")
+        }
     }, [])
 
     async function loginService() {
@@ -42,20 +70,29 @@ const LoginForm = () => {
                     type="email"
                     id="email"
                     value={email}
-                    onChange={handleEmailChange}
+                    onChange={handleEmailChangeCallback}
                     required
                 />
             </div>
             <div>
                 <label htmlFor="password">Password:</label>
                 <input
-                    type="password"
+                    type="text"
                     id="password"
                     value={password}
-                    onChange={handlePasswordChange}
+                    onChange={handlePasswordChangeCallback}
                     required
                 />
             </div>
+            {/* <div>
+                <label htmlFor="password">Test</label>
+                <input
+                    type="test"
+                    id="test"
+                    ref={testRef as any}
+                    required
+                />
+            </div> */}
             <button type="button" onClick={loginService}>Login</button>
         </form>
     );

@@ -69,3 +69,80 @@
 {"level":"info","message":"Request Finished","path":"/login","requestId":"39ee880a-541f-4e0e-a535-22a4a9450dc9","service":"api"}
 {"level":"info","message":"Request Started","path":"/countries","requestId":"2687bd3f-1c3d-4cee-ad13-a650f36ef4a1","service":"api"}
 {"level":"info","message":"Request Finished","path":"/","requestId":"2687bd3f-1c3d-4cee-ad13-a650f36ef4a1","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"1b0d0f6a-15e6-41a1-a732-5ce05b461af2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"1b0d0f6a-15e6-41a1-a732-5ce05b461af2","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"7efcd909-307c-405f-bd1c-0e8b1914ec34","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"7efcd909-307c-405f-bd1c-0e8b1914ec34","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"ef167441-6cd2-417f-af87-48b6a058c9d3","service":"api"}
+{"level":"error","message":"jwt expired","service":"api"}
+{"level":"info","message":"Request Finished","path":"/countries","requestId":"ef167441-6cd2-417f-af87-48b6a058c9d3","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"b779e792-f3ab-4d12-ac87-74cfab3ee8b2","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"b779e792-f3ab-4d12-ac87-74cfab3ee8b2","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"fa6df0a9-9b49-4725-b8f3-deb596f4c456","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"fa6df0a9-9b49-4725-b8f3-deb596f4c456","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"fc007227-9283-4f4b-9555-825bc603179d","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"fc007227-9283-4f4b-9555-825bc603179d","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"3896c4e6-d6dd-4ada-bfdd-cd82dd6421ec","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"3896c4e6-d6dd-4ada-bfdd-cd82dd6421ec","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"936e762b-9a5a-4b8c-b512-2e461ee16df3","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"936e762b-9a5a-4b8c-b512-2e461ee16df3","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"526de24d-4043-4d2a-acae-9c537b2937e7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"526de24d-4043-4d2a-acae-9c537b2937e7","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"26e81819-33d1-498c-9774-1f43f92d409f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"26e81819-33d1-498c-9774-1f43f92d409f","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"905597ac-bcfd-41cc-9adb-3a4439116ebd","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"905597ac-bcfd-41cc-9adb-3a4439116ebd","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"a2b7d581-4e2e-4bff-85eb-0bf9fac482c7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"a2b7d581-4e2e-4bff-85eb-0bf9fac482c7","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"7e767195-27e6-4514-b12c-6f2afa5f2d32","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"7e767195-27e6-4514-b12c-6f2afa5f2d32","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"87e93418-5c75-4d11-b520-2ca2d292dcf0","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"87e93418-5c75-4d11-b520-2ca2d292dcf0","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"83c17203-3424-4ad4-bdd8-56722932c864","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"83c17203-3424-4ad4-bdd8-56722932c864","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"f9580b0a-54af-41ae-9e47-d7a10d0dde61","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"f9580b0a-54af-41ae-9e47-d7a10d0dde61","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"22f23df3-3b74-439d-8dbc-59cd622a3b7a","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"22f23df3-3b74-439d-8dbc-59cd622a3b7a","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"adfb1bdf-a24b-49f3-b4c4-0ff60662432d","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"adfb1bdf-a24b-49f3-b4c4-0ff60662432d","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"e24ea5f4-2cec-40bc-af89-06d4d1165c1a","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"e24ea5f4-2cec-40bc-af89-06d4d1165c1a","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"e338ea57-6ec5-426d-b499-1c57d885f386","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"e338ea57-6ec5-426d-b499-1c57d885f386","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"7b6f2ae4-3047-434e-a3af-c3a0d8662fa2","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"7b6f2ae4-3047-434e-a3af-c3a0d8662fa2","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"684255df-9c5a-4d88-96f5-b8908f0a5aab","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"684255df-9c5a-4d88-96f5-b8908f0a5aab","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"29b53bef-d9a3-4eec-bbb8-b21ebc68d7fd","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"29b53bef-d9a3-4eec-bbb8-b21ebc68d7fd","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"3ea14e79-c248-4dfe-b013-6147d80629bd","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"3ea14e79-c248-4dfe-b013-6147d80629bd","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"8a6e52ba-1b61-44e5-8381-35290395293c","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"8a6e52ba-1b61-44e5-8381-35290395293c","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"1577e33f-70b7-4a39-86be-7746215b0256","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"1577e33f-70b7-4a39-86be-7746215b0256","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"9400ad66-a602-4074-b79a-547b84538dbb","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"9400ad66-a602-4074-b79a-547b84538dbb","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"85461358-61cb-49c0-906e-f5498a49f1b4","service":"api"}
+{"level":"error","message":"User is not authorized","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"85461358-61cb-49c0-906e-f5498a49f1b4","service":"api"}
