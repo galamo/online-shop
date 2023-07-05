@@ -5,6 +5,7 @@ import { addRequestId } from "./middleware/addRequestId"
 import { addRequestStarted } from "./middleware/addRequestStarted"
 import { addRequestFinished } from "./middleware/addRequestFinished"
 import { logger } from "./logger"
+import { pool } from "./database"
 import jsonwebtoken from "jsonwebtoken"
 import dotenv from "dotenv"
 import cors from "cors"
@@ -20,6 +21,16 @@ app.get("/health-check", function (req, res, next) {
     res.send("api is ok")
 })
 
+app.get("/customers", async function (req, res, next) {
+
+    try {
+        const result = await pool.query("SELECT * FROM northwind.customers")
+        res.json({ customers: result[0] })
+    } catch (error) {
+        res.send("errr")
+    }
+
+})
 app.use("/auth", authRouter)
 app.use(verifyAuthentication)
 app.use("/products", productsRouter)

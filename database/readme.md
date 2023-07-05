@@ -60,3 +60,8 @@ ORDER BY NumberOfSuppliers ASC
 1. Create a report with GROUP BY that shows every shipper id and his number of orders.
 
 
+# Homework
+1. Create e2e feature
+- Client side - React component, page, route , on load - making request to the api GET /Products
+- Server Side - Nodejs Api, express GET request, return all the products from the database
+- DB - query (`select * from products` )

@@ -167,3 +167,49 @@
 {"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"abe55600-0bfa-4f4a-a1cb-d6cfcbd8537d","service":"api"}
 {"level":"error","message":"jwt must be provided","service":"api"}
 {"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"abe55600-0bfa-4f4a-a1cb-d6cfcbd8537d","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"cd92d644-4361-42df-a2fb-97e641bb4e9f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/customers","requestId":"cd92d644-4361-42df-a2fb-97e641bb4e9f","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"e43ec91c-5d7a-4ed2-bf82-09cfcc2d43a6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/customers","requestId":"e43ec91c-5d7a-4ed2-bf82-09cfcc2d43a6","service":"api"}
+{"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"9020454d-3f58-48e4-91e0-de1fc1e66426","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"5407a0f1-c09b-41f1-9975-87b34db3d029","service":"api"}
+{"level":"info","message":"Request Finished","path":"/customers","requestId":"5407a0f1-c09b-41f1-9975-87b34db3d029","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"34634842-cb18-49f3-ad38-a1f23f131d55","service":"api"}
+{"level":"info","message":"Request Finished","path":"/customers","requestId":"34634842-cb18-49f3-ad38-a1f23f131d55","service":"api"}
+{"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"4c8bd86e-a23d-4144-b0b9-b0f9dacc4ee2","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"4c8bd86e-a23d-4144-b0b9-b0f9dacc4ee2","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"fc8256d4-8757-4e59-8909-506b1c6c4729","service":"api"}
+{"level":"info","message":"Request Finished","path":"/customers","requestId":"fc8256d4-8757-4e59-8909-506b1c6c4729","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"c19c9ead-7419-475a-b9af-6ebafe33186c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/customers","requestId":"c19c9ead-7419-475a-b9af-6ebafe33186c","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"b2547368-bb6c-4a05-9901-080a749b6899","service":"api"}
+{"level":"info","message":"Request Finished","path":"/customers","requestId":"b2547368-bb6c-4a05-9901-080a749b6899","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"f8eca421-e6b6-481b-a5c3-361b7c749a94","service":"api"}
+{"level":"info","message":"Request Finished","path":"/customers","requestId":"f8eca421-e6b6-481b-a5c3-361b7c749a94","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"953e899d-84de-4200-923b-148f582a6903","service":"api"}
+{"level":"info","message":"Request Finished","path":"/customers","requestId":"953e899d-84de-4200-923b-148f582a6903","service":"api"}
+{"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"110708fc-36c2-4583-839e-5195c0d03db4","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"110708fc-36c2-4583-839e-5195c0d03db4","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
