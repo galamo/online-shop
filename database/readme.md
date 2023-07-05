@@ -15,3 +15,48 @@ https://dev.mysql.com/downloads/installer/
 5. Return all the products that cost more than 10$ 
 6. write a query that return all the products that cost less than 20$
 7. write a query that return the number of employees in the company     
+
+
+
+### EX1:
+1. Create the following table: Cars
+2. declare at least 5 columns
+3. declare Primary key
+4. declare createdAt & updatedAt columns => DATETIME
+
+
+
+```sql
+SELECT 
+    SUM(NumberOfProducts)
+FROM
+    (SELECT 
+        CategoryID, COUNT(*) AS NumberOfProducts
+    FROM
+        northwind.products
+    GROUP BY CategoryID) as a
+    
+    
+
+SELECT 
+    northwind.categories.CategoryID, CategoryName , AVG(Price) AS NumberOfProducts
+FROM 
+    northwind.products JOIN categories on northwind.categories.CategoryID = northwind.products.CategoryID
+GROUP BY CategoryID
+
+
+SELECT 
+    Country, COUNT(*) AS NumberOfSuppliers
+FROM
+    northwind.suppliers
+GROUP BY Country
+HAVING NumberOfSuppliers < 4
+ORDER BY NumberOfSuppliers ASC
+
+```
+
+
+### EX2 :
+1. Create a report with GROUP BY that shows every shipper id and his number of orders.
+
+

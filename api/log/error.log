@@ -18,3 +18,7 @@
 {"level":"error","message":"User is not authorized","service":"api"}
 {"level":"error","message":"User is not authorized","service":"api"}
 {"level":"error","message":"User is not authorized","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
