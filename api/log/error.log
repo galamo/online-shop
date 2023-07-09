@@ -1,3 +1,7 @@
 {"level":"error","message":"Id is not a valid Number","service":"api"}
 {"level":"error","message":"Id is not a valid Number","service":"api"}
 {"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"Incorrect arguments to mysqld_stmt_execute","service":"api"}
+{"level":"error","message":"Incorrect arguments to mysqld_stmt_execute","service":"api"}
+{"level":"error","message":"Incorrect arguments to mysqld_stmt_execute","service":"api"}
+{"level":"error","message":"Incorrect arguments to mysqld_stmt_execute","service":"api"}

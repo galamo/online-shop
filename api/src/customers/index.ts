@@ -4,19 +4,21 @@ import { getAllCustomers } from "./handlers/getAllCustomers";
 import { logger } from "../logger"
 import { getCustomerById } from "./handlers/getCustomerById";
 import { getCustomerByName } from "./handlers/getCustomersByName";
+import { getCustomersCountHandler } from "./handlers/getCustomersCount";
 const customersRouter = express.Router();
 
 customersRouter.get("/", getCustomers)
 customersRouter.get("/search", search)
+customersRouter.get("/count", getCustomersCount)
 customersRouter.get("/:id", getCustomer)
 
 
 // no input 
 async function getCustomers(req: Request, res: Response, next: NextFunction) {
     try {
-        const { extended } = req.query;
+        const { extended, limit } = req.query;
         const isExtended = extended === "true"
-        const results = await getAllCustomers(isExtended)
+        const results = await getAllCustomers(+limit, isExtended)
         res.json(results)
     } catch (error) {
         logger.error(error.message)
@@ -49,6 +51,14 @@ async function search(req: Request, res: Response, next: NextFunction) {
     }
 }
 
-
+async function getCustomersCount(req: Request, res: Response, next: NextFunction) {
+    try {
+        const result = await getCustomersCountHandler()
+        res.json({ count: result })
+    } catch (error) {
+        logger.error(error.message)
+        return next(error)
+    }
+}
 
 export { customersRouter };

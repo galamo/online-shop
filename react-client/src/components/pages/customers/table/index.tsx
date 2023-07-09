@@ -1,16 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
+import { ICustomer } from '../api';
 
 
-export default function CustomersTable() {
+export default function CustomersTable(props: { customers: Array<ICustomer>, extended?: boolean }) {
+    const { extended = true } = props
+    if (!props.customers[0]) return null;
+    const columns = [<Column field={"id"} header={"id"}></Column>,
+    <Column field={"name"} header={"name"}></Column>,
+    <Column field={"city"} header={"city"}></Column>]
     return <div>
         <div className="card">
-            <DataTable value={[]} tableStyle={{ minWidth: '50rem' }}>
-                <Column field="code" header="Code"></Column>
-                <Column field="name" header="Name"></Column>
-                <Column field="category" header="Category"></Column>
-                <Column field="quantity" header="Quantity"></Column>
+            <DataTable value={props.customers} tableStyle={{ minWidth: '50rem' }}>
+                {extended ?
+                    Object.keys(props.customers[0]).map(key => {
+                        return <Column field={key} header={key}></Column>
+                    })
+                    : columns
+                }
             </DataTable>
         </div>
     </div>
