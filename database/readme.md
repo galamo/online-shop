@@ -65,3 +65,9 @@ ORDER BY NumberOfSuppliers ASC
 - Client side - React component, page, route , on load - making request to the api GET /Products
 - Server Side - Nodejs Api, express GET request, return all the products from the database
 - DB - query (`select * from products` )
+
+
+# Homework 9.7
+1. Create Route - Employees.
+2. fetch and present the employees in table
+3. use `Between query` , Bring all the employees that has birthdays between specific ( selected ) dates  - use prime date picker 
