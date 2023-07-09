@@ -1,6 +1,6 @@
 // const express = require("express")
 import express, { Request, Response, NextFunction } from "express"
-import { productsRouter, cartRouter, authRouter, countriesRouter } from "./routes.index"
+import { productsRouter, cartRouter, authRouter, countriesRouter, customersRouter } from "./routes.index"
 import { addRequestId } from "./middleware/addRequestId"
 import { addRequestStarted } from "./middleware/addRequestStarted"
 import { addRequestFinished } from "./middleware/addRequestFinished"
@@ -21,16 +21,7 @@ app.get("/health-check", function (req, res, next) {
     res.send("api is ok")
 })
 
-app.get("/customers", async function (req, res, next) {
-
-    try {
-        const result = await pool.query("SELECT * FROM northwind.customers")
-        res.json({ customers: result[0] })
-    } catch (error) {
-        res.send("errr")
-    }
-
-})
+app.use("/customers", customersRouter)
 app.use("/auth", authRouter)
 app.use(verifyAuthentication)
 app.use("/products", productsRouter)

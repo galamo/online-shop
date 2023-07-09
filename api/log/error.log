@@ -1,27 +1,3 @@
-{"level":"error","message":"sssss","service":"api"}
-{"level":"error","message":"jwt expired","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"User is not authorized","service":"api"}
-{"level":"error","message":"jwt must be provided","service":"api"}
-{"level":"error","message":"jwt must be provided","service":"api"}
-{"level":"error","message":"jwt must be provided","service":"api"}
-{"level":"error","message":"jwt must be provided","service":"api"}
-{"level":"error","message":"jwt must be provided","service":"api"}
-{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"Id is not a valid Number","service":"api"}
+{"level":"error","message":"Id is not a valid Number","service":"api"}
 {"level":"error","message":"jwt must be provided","service":"api"}

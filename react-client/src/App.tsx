@@ -8,6 +8,7 @@ import LoginForm from './components/pages/login'
 import NotFound from './components/pages/not-found'
 import RegistrationComponent from './components/pages/signup'
 import { ProtectedRoute } from './components/ui-components/protected-route'
+import CustomersPage from './components/pages/customers'
 
 interface IRoute {
     path: string,
@@ -33,6 +34,12 @@ const routes: Array<IRoute> = [
         component: <RegistrationComponent />,
         key: "signup",
         label: "Signup"
+    },
+    {
+        path: "/customers",
+        component: <CustomersPage />,
+        key: "customers",
+        label: "Customers"
     },
     {
         path: "*",
