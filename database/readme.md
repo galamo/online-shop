@@ -88,3 +88,26 @@ FROM
 ```
 
 write a query that shows all the orders and their employees names 
+
+
+2. join between the following tables: customers, shippers and employees based on orders table
+
+```sql
+SELECT 
+    northwind.orders.OrderID,
+    northwind.customers.ContactName as 'Customer Contact Name',
+    CONCAT(northwind.employees.FirstName,
+            ' ',
+            northwind.employees.LastName) AS 'Employee Full Name',
+            northwind.shippers.ShipperName as 'Shipper Name'
+FROM
+    northwind.orders
+        INNER JOIN
+    northwind.customers ON northwind.orders.CustomerId = northwind.customers.CustomerId
+        INNER JOIN
+    northwind.employees ON northwind.orders.EmployeeID = northwind.employees.EmployeeID
+        INNER JOIN
+    northwind.shippers ON northwind.orders.ShipperID = northwind.shippers.ShipperID
+
+
+```
