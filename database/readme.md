@@ -111,3 +111,56 @@ FROM
 
 
 ```
+
+
+3. the best customer 
+
+```sql
+
+SELECT 
+    northwind.orders.CustomerID,
+    customers.ContactName,
+    COUNT(*) AS numberOfOrders
+FROM
+    northwind.orders
+        JOIN
+    customers ON northwind.orders.CustomerID = customers.CustomerId
+GROUP BY CustomerId
+ORDER BY numberOfOrders DESC
+
+
+```
+
+
+4. employee of the "year" ( the bee )
+
+```sql
+
+SELECT 
+    EmployeeFullName,
+    SUM(totalPricePerProduct) AS employeeTotalIncome
+FROM
+    (SELECT 
+        northwind.orders.OrderID,
+            CONCAT(northwind.employees.FirstName, ' ', northwind.employees.LastName) AS EmployeeFullName,
+            northwind.orderdetails.ProductID,
+            northwind.products.ProductName,
+            northwind.orderdetails.Quantity,
+            northwind.products.price,
+            (northwind.orderdetails.Quantity * northwind.products.price) AS totalPricePerProduct
+    FROM
+        northwind.orders
+    INNER JOIN northwind.employees ON northwind.orders.EmployeeID = northwind.employees.EmployeeID
+    INNER JOIN northwind.orderdetails ON northwind.orders.OrderID = northwind.orderdetails.OrderID
+    INNER JOIN northwind.products ON northwind.orderdetails.ProductID = northwind.products.ProductID) AS a
+GROUP BY EmployeeFullName
+ORDER BY employeeTotalIncome DESC 
+	
+
+
+
+```
+
+
+5. the best shipper - with the highest amount of orders
+6. the best shipper2 - with the highest profit orders 
