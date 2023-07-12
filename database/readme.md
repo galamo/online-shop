@@ -164,3 +164,34 @@ ORDER BY employeeTotalIncome DESC
 
 5. the best shipper - with the highest amount of orders
 6. the best shipper2 - with the highest profit orders 
+
+7. Union example
+
+```sql
+
+SELECT 
+    *
+FROM
+    (SELECT DISTINCT
+        (categoryName)
+    FROM
+        (SELECT 
+        ProductID, ProductName, categoryName, description
+    FROM
+        northwind.products
+    LEFT JOIN northwind.categories ON northwind.products.CategoryID = northwind.categories.CategoryID
+    ORDER BY ProductID ASC) AS a) AS d 
+UNION SELECT DISTINCT
+    (northwind.categories.categoryName)
+FROM
+    northwind.categories
+
+```
+
+
+# Homework 
+1. write a query that return the most expensive product (1)
+2. write a query that return the most expensive order (1)
+3. create a report that shows the highest amount of orders price ( order by - top 10)
+4. which country supply the highest amount of products 
+ 
