@@ -71,3 +71,20 @@ ORDER BY NumberOfSuppliers ASC
 1. Create Route - Employees.
 2. fetch and present the employees in table
 3. use `Between query` , Bring all the employees that has birthdays between specific ( selected ) dates  - use prime date picker 
+
+
+# Join query
+1. sql query
+```sql
+SELECT 
+    *
+FROM
+    northwind.orders
+        INNER JOIN
+    northwind.customers ON northwind.orders.CustomerId = northwind.customers.CustomerId
+
+
+
+```
+
+write a query that shows all the orders and their employees names 
