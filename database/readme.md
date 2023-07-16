@@ -225,7 +225,8 @@ WHERE
 
 # Docker
 1. `docker pull mysql`
-2. `docker run --name=mysql-on-docker -p 3307:3306  --env="MYSQL_ROOT_PASSWORD=mypassword" mysql`
+2. `docker run --name=mysql-on-docker-3306 -p 3306:3306  --env="MYSQL_ROOT_PASSWORD=mypassword" mysql`
 
+# Docker compose 
 
  
