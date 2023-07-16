@@ -195,3 +195,37 @@ FROM
 3. create a report that shows the highest amount of orders price ( order by - top 10)
 4. which country supply the highest amount of products 
  
+
+ ### Solution 
+
+ ```sql
+ 
+ SELECT * from northwind.products where price = ( SELECT 
+    Price
+FROM
+    northwind.products
+GROUP BY price
+ORDER BY Price DESC
+LIMIT 1) 
+
+
+SELECT 
+    *
+FROM
+    northwind.products
+WHERE
+    price = (SELECT 
+            MAX(Price)
+        FROM
+            northwind.products)
+ 
+ 
+ ```
+
+
+# Docker
+1. `docker pull mysql`
+2. `docker run --name=mysql-on-docker -p 3307:3306  --env="MYSQL_ROOT_PASSWORD=mypassword" mysql`
+
+
+ 
