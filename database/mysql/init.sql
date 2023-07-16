@@ -9,8 +9,8 @@
 --     mysql
 --     Copy and paste the SQL below into the terminal window to create the Northwind database.
 
-CREATE DATABASE IF NOT EXISTS Northwind;
-USE Northwind;
+CREATE DATABASE IF NOT EXISTS northwind;
+USE northwind;
 
 DROP TABLE IF EXISTS OrderDetails;
 DROP TABLE IF EXISTS Orders;

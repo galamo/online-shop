@@ -228,5 +228,7 @@ WHERE
 2. `docker run --name=mysql-on-docker-3306 -p 3306:3306  --env="MYSQL_ROOT_PASSWORD=mypassword" mysql`
 
 # Docker compose 
-
- 
+1. `cd database`
+2. run `docker compose up`
+3. run your api ( `npm start`)
+4. connect your API to the local mysql docker 

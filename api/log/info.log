@@ -371,3 +371,32 @@
 {"level":"info","message":"Request Finished","path":"/","requestId":"43933726-c41c-421a-9aad-d69b4d39345c","service":"api"}
 {"level":"info","message":"Request Started","path":"/customers/count","requestId":"d14ff694-0497-4045-8fb1-faf0bc987eff","service":"api"}
 {"level":"info","message":"Request Finished","path":"/count","requestId":"d14ff694-0497-4045-8fb1-faf0bc987eff","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"53d88ae3-73bf-4a12-bd9c-ab65b932f3f6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"53d88ae3-73bf-4a12-bd9c-ab65b932f3f6","service":"api"}
+{"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"58238610-cb01-4361-a822-5af9fe50e95f","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"58238610-cb01-4361-a822-5af9fe50e95f","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"378b3ceb-31a5-42ba-a6a2-924694c9f243","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"378b3ceb-31a5-42ba-a6a2-924694c9f243","service":"api"}
+{"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"1b4894f5-3f53-49fb-b5aa-7255c584ab9a","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"1b4894f5-3f53-49fb-b5aa-7255c584ab9a","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"98780732-6fe3-4e20-b3a2-adb82aa011b1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"98780732-6fe3-4e20-b3a2-adb82aa011b1","service":"api"}
+{"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"40471485-474e-4483-b260-d4e6d268025f","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"40471485-474e-4483-b260-d4e6d268025f","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"cca5512f-05d2-420a-bf3f-1e077317c089","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"cca5512f-05d2-420a-bf3f-1e077317c089","service":"api"}
+{"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"b67fb63f-08ee-486c-8f5d-2b5a3af4f917","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"b67fb63f-08ee-486c-8f5d-2b5a3af4f917","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"2c2f3971-b3c6-4d26-8cc1-c173cea7bdb9","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2c2f3971-b3c6-4d26-8cc1-c173cea7bdb9","service":"api"}
+{"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"e5a7bb13-e6fc-4226-b00d-f2cbbb9c5b27","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"e5a7bb13-e6fc-4226-b00d-f2cbbb9c5b27","service":"api"}
