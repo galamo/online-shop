@@ -35,3 +35,7 @@ Q: what you will see when typing `docker ps`
 
 7. Add setTimeout to make your container hanged.
 8. try to connect to your container `docker exec -it <CONTAINER_ID> sh`
+
+9. `docker build . --tag api`
+10. `docker run -p 4000:4000 api`
+11. `docker rmi api`

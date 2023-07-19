@@ -9,7 +9,7 @@ import { pool } from "./database"
 import jsonwebtoken from "jsonwebtoken"
 import dotenv from "dotenv"
 import cors from "cors"
-dotenv.config()
+    dotenv.config()
 
 const app = express();
 app.use(express.json())

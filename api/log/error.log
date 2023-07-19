@@ -10,3 +10,7 @@
 {"level":"error","message":"jwt must be provided","service":"api"}
 {"level":"error","message":"jwt must be provided","service":"api"}
 {"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"connect ETIMEDOUT","service":"api"}
+{"level":"error","message":"connect ETIMEDOUT","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
