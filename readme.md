@@ -31,3 +31,7 @@
 
 Expected result: Your name printed!
 Q: what you will see when typing `docker ps` 
+
+
+7. Add setTimeout to make your container hanged.
+8. try to connect to your container `docker exec -it <CONTAINER_ID> sh`
