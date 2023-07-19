@@ -42,3 +42,13 @@ Q: what you will see when typing `docker ps`
 
 
 12. `docker compose up --build`
+
+
+
+# Homework 19/7
+1. watch the following course https://www.youtube.com/watch?v=pTFZFxd4hOI
+2. Create Docker compose file with 2 express API that can communicate each other
+- api1 - /health-check - making http request to api2 - /health-check
+- api1 will return the response from api2 
+
+
