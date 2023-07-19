@@ -17,3 +17,17 @@
 2. create products filter - ( by name )
 3. protect your products component
 4. send the jwt token from the client
+
+
+# Dockerizing nodejs script
+1. Create your docker folder
+2. create inside the folder JS file with your name printing function
+3. create Dockerfile
+4. add the relevant commands - take reference from Gal's Dockerfile
+5. Run inside your folder the following command
+- `docker build . --tag printMyName`
+6. Run your container based on `printMyName` image:
+- `docker run printMyName`
+
+Expected result: Your name printed!
+Q: what you will see when typing `docker ps` 
