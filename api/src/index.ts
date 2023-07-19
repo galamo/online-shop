@@ -9,7 +9,7 @@ import { pool } from "./database"
 import jsonwebtoken from "jsonwebtoken"
 import dotenv from "dotenv"
 import cors from "cors"
-    dotenv.config()
+dotenv.config()
 
 const app = express();
 app.use(express.json())
@@ -18,7 +18,7 @@ app.use(addRequestId)
 app.use(addRequestStarted)
 app.use(addRequestFinished)
 app.get("/health-check", function (req, res, next) {
-    res.send("api is ok")
+    res.send(`API IS OK ${new Date().toISOString()}`)
 })
 
 app.use("/customers", customersRouter)

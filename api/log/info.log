@@ -416,3 +416,4 @@
 {"level":"info","message":"Request Started","path":"/favicon.ico","requestId":"07ce7299-b455-4dd9-a7e8-5ea16625e08c","service":"api"}
 {"level":"error","message":"jwt must be provided","service":"api"}
 {"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"07ce7299-b455-4dd9-a7e8-5ea16625e08c","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}

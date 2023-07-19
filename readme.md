@@ -39,3 +39,6 @@ Q: what you will see when typing `docker ps`
 9. `docker build . --tag api`
 10. `docker run -p 4000:4000 api`
 11. `docker rmi api`
+
+
+12. `docker compose up --build`
