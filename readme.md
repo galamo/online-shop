@@ -25,9 +25,9 @@
 3. create Dockerfile
 4. add the relevant commands - take reference from Gal's Dockerfile
 5. Run inside your folder the following command
-- `docker build . --tag printMyName`
-6. Run your container based on `printMyName` image:
-- `docker run printMyName`
+- `docker build . --tag print-my-name`
+6. Run your container based on `print-my-name` image:
+- `docker run print-my-name`
 
 Expected result: Your name printed!
 Q: what you will see when typing `docker ps` 
