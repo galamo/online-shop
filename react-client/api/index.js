@@ -3,10 +3,10 @@ const path = require("path")
 const port = 5200
 const app = express()
 
-app.use(express.static("../react-client/dist"))
+app.use(express.static("./dist"))
 
 app.get("*", (req, res, next) => {
-    res.sendFile(path.resolve(__dirname, "files/index.html"))
+    res.sendFile(path.resolve(__dirname, "./dist/index.html"))
 })
 
 app.listen(port, () => {

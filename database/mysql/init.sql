@@ -20,6 +20,8 @@ DROP TABLE IF EXISTS Customers;
 DROP TABLE IF EXISTS Employees;
 DROP TABLE IF EXISTS Shippers;
 DROP TABLE IF EXISTS Suppliers;
+DROP TABLE IF EXISTS users;
+
 
 START TRANSACTION;
 
@@ -29,6 +31,17 @@ CREATE TABLE Categories
     CategoryName VARCHAR(25),
     Description VARCHAR(255)
 );
+
+
+CREATE TABLE `northwind`.`users` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `email` VARCHAR(100) NOT NULL,
+  `password` VARCHAR(200) NOT NULL,
+  `firstName` VARCHAR(45) NULL,
+  `lastName` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+
 
 CREATE TABLE Customers
 (      
@@ -107,6 +120,9 @@ INSERT INTO Categories VALUES(5,'Grains/Cereals','Breads, crackers, pasta, and c
 INSERT INTO Categories VALUES(6,'Meat/Poultry','Prepared meats');
 INSERT INTO Categories VALUES(7,'Produce','Dried fruit and bean curd');
 INSERT INTO Categories VALUES(8,'Seafood','Seaweed and fish');
+
+INSERT INTO `northwind`.`users` (`email`, `password`, `firstName`, `lastName`) VALUES ('tomer@gmail.com', 'pass1234', 't', 't');
+
 
 INSERT INTO Customers VALUES(1,'Alfreds Futterkiste','Maria Anders','Obere Str. 57','Berlin','12209','Germany');
 INSERT INTO Customers VALUES(2,'Ana Trujillo Emparedados y helados','Ana Trujillo','Avda. de la Constitución 2222','México D.F.','5021','Mexico');

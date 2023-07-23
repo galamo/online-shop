@@ -52,3 +52,5 @@ Q: what you will see when typing `docker ps`
 - api1 will return the response from api2 
 
 
+# Homework 23/7 
+1. Create a docker compose that run all the eco system , client, server & database
