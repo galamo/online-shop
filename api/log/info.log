@@ -417,3 +417,77 @@
 {"level":"error","message":"jwt must be provided","service":"api"}
 {"level":"info","message":"Request Finished","path":"/favicon.ico","requestId":"07ce7299-b455-4dd9-a7e8-5ea16625e08c","service":"api"}
 {"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"162b19cf-1c35-485e-9c30-50cfbc16edc3","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"addac670-7eae-4b73-bc6a-b008ec3a1e8a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"162b19cf-1c35-485e-9c30-50cfbc16edc3","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"addac670-7eae-4b73-bc6a-b008ec3a1e8a","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"5818440b-9646-432c-b354-4d8c3132da98","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"849d5a38-d1b8-40f5-a5be-b2a8b737602f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"5818440b-9646-432c-b354-4d8c3132da98","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"849d5a38-d1b8-40f5-a5be-b2a8b737602f","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"b994850b-df33-49dd-9b9f-4444f22c7587","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"b994850b-df33-49dd-9b9f-4444f22c7587","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"63b3bfc2-c5b8-413e-8f13-fef37b9aa515","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"63b3bfc2-c5b8-413e-8f13-fef37b9aa515","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"a99a499d-c76e-4549-99fd-40fb5749f3ee","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"a99a499d-c76e-4549-99fd-40fb5749f3ee","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"d0650677-944b-4e94-81fc-33db90583668","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d0650677-944b-4e94-81fc-33db90583668","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"af2af789-c7b9-45a9-8105-e250a88990f7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"af2af789-c7b9-45a9-8105-e250a88990f7","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"3dcc2022-e5fc-4426-9837-0443bbdf87d5","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"a07b6bf1-dd27-4029-ae76-b829377973eb","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"3dcc2022-e5fc-4426-9837-0443bbdf87d5","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"a07b6bf1-dd27-4029-ae76-b829377973eb","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"5d9606ef-7139-4999-b28a-52b4cffceda5","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"4e154806-69ba-41c6-a3d5-bf0c3c6e1c7a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"5d9606ef-7139-4999-b28a-52b4cffceda5","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"4e154806-69ba-41c6-a3d5-bf0c3c6e1c7a","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"ba241a82-d4a1-43da-b82c-9a9e7143b148","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"c0fc2e8d-16ad-4318-aeb8-4e0a3204f4ee","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ba241a82-d4a1-43da-b82c-9a9e7143b148","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"c0fc2e8d-16ad-4318-aeb8-4e0a3204f4ee","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"ce464b48-ba42-40a7-a7ec-64915811c356","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ce464b48-ba42-40a7-a7ec-64915811c356","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"2c5eb5d7-c786-4410-9ea4-3fb5e4cd6e1e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"2c5eb5d7-c786-4410-9ea4-3fb5e4cd6e1e","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"c66f3552-b888-4b3e-a76b-645e598de3dc","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"c66f3552-b888-4b3e-a76b-645e598de3dc","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"b53d3931-9a91-465e-9899-3b5baf793a6a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"b53d3931-9a91-465e-9899-3b5baf793a6a","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"0a1b218b-8815-4d51-bf7d-3585718180d2","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"eeff7b97-15cd-44c4-a2f0-f153c19361bf","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0a1b218b-8815-4d51-bf7d-3585718180d2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"eeff7b97-15cd-44c4-a2f0-f153c19361bf","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"6e1c0042-c40d-4eba-8b18-98fe6d7df50e","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"3ab241d8-d43c-47c6-aa64-856dc49ee4aa","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"3ab241d8-d43c-47c6-aa64-856dc49ee4aa","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"6e1c0042-c40d-4eba-8b18-98fe6d7df50e","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"ba00594c-e9cb-4509-994b-b87b44f22020","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"dd6276eb-f03c-4021-8893-15d7171806fc","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ba00594c-e9cb-4509-994b-b87b44f22020","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"dd6276eb-f03c-4021-8893-15d7171806fc","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"b003faa3-274b-4379-96b3-c914c05a226e","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"1727f314-6de7-4bf8-b32e-5229bc2c1094","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"b003faa3-274b-4379-96b3-c914c05a226e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"1727f314-6de7-4bf8-b32e-5229bc2c1094","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"fdd5b72b-045c-4173-b333-c50fefec9c82","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"7042e5fb-f74c-4d2f-84f4-73bf2314d987","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"fdd5b72b-045c-4173-b333-c50fefec9c82","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"7042e5fb-f74c-4d2f-84f4-73bf2314d987","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"1b1cdaf7-5d44-4ff0-b28e-4f2562d25326","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"1b1cdaf7-5d44-4ff0-b28e-4f2562d25326","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"73da0116-0110-4be8-8ffa-acf1dc226bc9","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"73da0116-0110-4be8-8ffa-acf1dc226bc9","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"d3d1b1cf-ad49-4ba9-8e9f-bd3091db3fc5","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"2c8b38dc-a7dd-420a-acbd-6b30c28487c6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d3d1b1cf-ad49-4ba9-8e9f-bd3091db3fc5","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"2c8b38dc-a7dd-420a-acbd-6b30c28487c6","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"0aac8831-0d7b-40a5-afbb-339f186c54fc","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"6e07c45a-7060-4bb2-9727-ad73fe6805a6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0aac8831-0d7b-40a5-afbb-339f186c54fc","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"6e07c45a-7060-4bb2-9727-ad73fe6805a6","service":"api"}

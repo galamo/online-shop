@@ -1,8 +1,6 @@
 import './App.css'
-import { useState } from "react"
-import { Header } from './components/ui-components/header'
 import CountriesPage from './components/pages/countries'
-import { BrowserRouter, Routes, Route, Link, useNavigate } from "react-router-dom"
+import { Routes, Route, Link, useNavigate } from "react-router-dom"
 import { Button } from 'primereact/button'
 import LoginForm from './components/pages/login'
 import NotFound from './components/pages/not-found'
