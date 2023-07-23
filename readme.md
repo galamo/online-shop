@@ -54,3 +54,4 @@ Q: what you will see when typing `docker ps`
 
 # Homework 23/7 
 1. Create a docker compose that run all the eco system , client, server & database
+2. Create signup page with hashed password. password should be hashed in the database ( salt should be saved as well )
