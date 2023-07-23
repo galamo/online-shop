@@ -7,7 +7,7 @@ import NotFound from './components/pages/not-found'
 import RegistrationComponent from './components/pages/signup'
 import { ProtectedRoute } from './components/ui-components/protected-route'
 import CustomersPage from './components/pages/customers'
-
+console.log("test")
 interface IRoute {
     path: string,
     key: string,
