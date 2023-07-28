@@ -11,3 +11,8 @@ services:
       MYSQL_ROOT_PASSWORD: admin
     volumes:
       - "./mysql:/docker-entrypoint-initdb.d"  
+  api:
+    image: api
+    build: ../api
+    ports:
+      - "4000:4000"

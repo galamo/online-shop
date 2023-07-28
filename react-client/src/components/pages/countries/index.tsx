@@ -46,8 +46,6 @@ export default function CountriesPage() {
         })
     }
     const filteredCountries = countryFilter ? countries.filter((c: any) => c?.name?.common.toLowerCase().includes(countryFilter.toLowerCase())) : countries
-    const b = false;
-    const a = true;
     return <div>
         <Header text="Countries Page" />
         <InputText onChange={handleFilter} />

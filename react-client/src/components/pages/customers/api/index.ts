@@ -27,7 +27,7 @@ async function getAllCustomersService(limit: number = 10): Promise<Array<ICustom
 }
 
 async function getCustomersCountService(): Promise<number> {
-    const { data, headers } = await axios.get(`http://localhost:4000/customers/count`)
+    const { data } = await axios.get(`http://localhost:4000/customers/count`)
     // if (!Array.isArray(data)) throw new Error(`Error Please contact support ${headers["x-request-id"]}`)
     return data.count as number;
 }

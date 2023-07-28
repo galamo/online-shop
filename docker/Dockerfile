@@ -1,11 +1,4 @@
-FROM node:18
-
-RUN node -v 
-
-RUN echo "THIS IS ONLY MESSAGE TO CONSOLE"
-
-RUN touch index.js
-COPY index.js index2.js 
-
+FROM node:20-alpine3.17
+COPY index.js .
 # THIS LINE IS NOT PART OF THE BUILD BUT THE RUN CONTAINER FLOW
-CMD ["node", "index2.js"] 
+CMD ["node", "index.js"] 

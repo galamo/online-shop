@@ -1,6 +1,6 @@
 import { object, string, TypeOf } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm, FormProvider, SubmitHandler } from "react-hook-form";
+import { useForm, FormProvider } from "react-hook-form";
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
 

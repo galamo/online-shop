@@ -18,7 +18,7 @@ app.use(addRequestId)
 app.use(addRequestStarted)
 app.use(addRequestFinished)
 app.get("/health-check", function (req, res, next) {
-    res.send("api is ok")
+    res.send(`API IS OK ${new Date().toISOString()}`)
 })
 
 app.use("/customers", customersRouter)
