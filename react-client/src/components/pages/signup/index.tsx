@@ -6,9 +6,9 @@ import { useNavigate } from "react-router-dom"
 
 const registrationSchema = object({
     email: string().email("Invalid email"),
-    gender: string(),
+    firstName: string(),
     password: string().min(6, "Password must be at least 6 characters"),
-    phone: string()
+    lastName: string()
 });
 
 type RegistrationInput = TypeOf<typeof registrationSchema>;
@@ -23,9 +23,9 @@ const RegistrationComponent = () => {
     async function signUpService() {
         const signUpPayload = {
             email: methods.getValues("email"),
-            gender: methods.getValues("gender"),
+            firstName: methods.getValues("firstName"),
             password: methods.getValues("password"),
-            phone: methods.getValues("phone"),
+            lastName: methods.getValues("lastName"),
         }
 
         try {
@@ -45,15 +45,16 @@ const RegistrationComponent = () => {
                     Email
                     <input type="email" {...methods.register("email")} />
                     {methods.formState.errors.email && <span>{methods.formState.errors.email.message}</span>}
-                    Gender
-                    <input type="text" {...methods.register("gender")} />
-                    {methods.formState.errors.gender && <span>{methods.formState.errors.gender.message}</span>}
+                    first name
+                    <input type="text" {...methods.register("firstName")} />
+                    {methods.formState.errors.firstName && <span>{methods.formState.errors.firstName.message}</span>}
+                    last name
+                    <input type="text" {...methods.register("lastName")} />
+                    {methods.formState.errors.lastName && <span>{methods.formState.errors.lastName.message}</span>}
                     Password
                     <input type="password" {...methods.register("password")} />
                     {methods.formState.errors.password && <span>{methods.formState.errors.password.message}</span>}
-                    Phone
-                    <input type="text" {...methods.register("phone")} />
-                    {methods.formState.errors.phone && <span>{methods.formState.errors.phone.message}</span>}
+
 
                 </div>
                 <button type="button" onClick={signUpService}>Sign Up</button>

@@ -4,6 +4,8 @@ import jsonwebtoken from "jsonwebtoken"
 import zod from "zod"
 import dotenv from "dotenv"
 import { logger } from "../logger"
+import signUp from "./handlers/signup"
+import { login } from "./handlers/login"
 dotenv.config()
 
 
@@ -14,8 +16,8 @@ const users = [{ email: "root@root.com", password: "admin" }];
 export const signupSchema = zod.object({
     email: zod.string(),
     password: zod.string(),
-    phone: zod.string().max(20),
-    gender: zod.enum(["male", "female", "them"])
+    firstName: zod.string().max(100),
+    lastName: zod.string().max(100)
 })
 
 const loginSchema = zod.object({
@@ -33,15 +35,21 @@ function middlewareLogin(req, res, next) {
     }
 }
 
-authRouter.post("/login", middlewareLogin, function (req, res, next) {
+authRouter.post("/login", middlewareLogin, async function (req, res, next) {
     const { email, password } = req.body
-    const user = users.find(currentUser => currentUser.password === password && currentUser.email === email)
-    if (!user) {
-        logger.error({ message: "User is not authorized" })
+    // const user = users.find(currentUser => currentUser.password === password && currentUser.email === email)
+    // if (!user) {
+    //     logger.error({ message: "User is not authorized" })
+    //     return res.status(401).send("User is unauthorized")
+    // }
+    try {
+        const result = await login(email, password);
+        if (!result) throw new Error()
+        const signedToken = jsonwebtoken.sign({ userName: email, role: "admin" }, process.env.SECRET, { expiresIn: '10s' })
+        res.json({ token: signedToken })
+    } catch (error) {
         return res.status(401).send("User is unauthorized")
     }
-    const signedToken = jsonwebtoken.sign({ userName: email, role: "admin" }, process.env.SECRET, { expiresIn: '10s' })
-    res.json({ token: signedToken })
 })
 
 function middlewareSignIn(req, res, next) {
@@ -53,11 +61,16 @@ function middlewareSignIn(req, res, next) {
     }
 }
 
-authRouter.post("/sign-up", middlewareSignIn, function (req, res, next) {
-    const user = users.find(u => u.email === req.body?.email?.toLowerCase())
-    if (user) return res.status(409).send("user already exist")
-    users.push(req.body)
-    return res.json({ message: "user successfully added!" })
+authRouter.post("/sign-up", middlewareSignIn, async function (req, res, next) {
+    try {
+        // const user = users.find(u => u.email === req.body?.email?.toLowerCase())
+        // if (user) return res.status(409).send("user already exist")
+        const result = await signUp(req.body)
+        console.log("User added id", result)
+        return res.json({ message: "user successfully added!" })
+    } catch (error) {
+        return next(error)
+    }
 })
 
 
