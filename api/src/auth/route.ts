@@ -11,7 +11,7 @@ dotenv.config()
 const authRouter = express.Router();
 const users = [{ email: "root@root.com", password: "admin" }];
 
-const signupSchema = zod.object({
+export const signupSchema = zod.object({
     email: zod.string(),
     password: zod.string(),
     phone: zod.string().max(20),

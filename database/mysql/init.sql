@@ -33,13 +33,17 @@ CREATE TABLE Categories
 );
 
 
-CREATE TABLE `northwind`.`users` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `email` VARCHAR(100) NOT NULL,
-  `password` VARCHAR(200) NOT NULL,
-  `firstName` VARCHAR(45) NULL,
-  `lastName` VARCHAR(45) NULL,
-  PRIMARY KEY (`id`));
+CREATE TABLE `Users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(200) NOT NULL,
+  `firstName` varchar(45) DEFAULT NULL,
+  `lastName` varchar(45) DEFAULT NULL,
+  `hashedPassword` varchar(256) NOT NULL,
+  `salt` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
 
 
 
@@ -121,7 +125,7 @@ INSERT INTO Categories VALUES(6,'Meat/Poultry','Prepared meats');
 INSERT INTO Categories VALUES(7,'Produce','Dried fruit and bean curd');
 INSERT INTO Categories VALUES(8,'Seafood','Seaweed and fish');
 
-INSERT INTO `northwind`.`users` (`email`, `password`, `firstName`, `lastName`) VALUES ('tomer@gmail.com', 'pass1234', 't', 't');
+-- INSERT INTO `northwind`.`Users` (`email`, `password`, `firstName`, `lastName`) VALUES ('tomer@gmail.com', 'pass1234', 't', 't');
 
 
 INSERT INTO Customers VALUES(1,'Alfreds Futterkiste','Maria Anders','Obere Str. 57','Berlin','12209','Germany');
