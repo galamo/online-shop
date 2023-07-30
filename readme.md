@@ -55,3 +55,9 @@ Q: what you will see when typing `docker ps`
 # Homework 23/7 
 1. Create a docker compose that run all the eco system , client, server & database
 2. Create signup page with hashed password. password should be hashed in the database ( salt should be saved as well )
+
+# Homework 30/7
+1. Create the following feature: Add to Cart
+2. the feature includes a Products Page that present all the products GET /products
+3. AddProductToCart - POST /addToCart/:cartId/:productId
+4. Advanced - Create Cart page
