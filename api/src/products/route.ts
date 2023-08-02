@@ -2,6 +2,7 @@
 import express from "express"
 import products from "./data"
 import zod from "zod"
+import { getAllProducts } from "./handlers/getProducts";
 // import { tokens } from "../auth/route";
 const productsRouter = express.Router();
 // tokens
@@ -13,8 +14,13 @@ const productBody = zod.object({
     category: zod.enum(["dairy", "drinks", "food", "fruits",])
 })
 
-productsRouter.get("/", function (req, res, next) {
-    return res.json(products)
+productsRouter.get("/", async function (req, res, next) {
+    try {
+        const result = await getAllProducts()
+        return res.json(result)
+    } catch (error) {
+        return next(error)
+    }
 })
 
 

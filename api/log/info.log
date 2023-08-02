@@ -714,3 +714,633 @@
 {"level":"info","message":"Request Finished","path":"/","requestId":"d84c80f2-24e4-4f28-913b-cf3471857b59","service":"api"}
 {"level":"info","message":"Api is running on Port 4000","service":"api"}
 {"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"35295960-0f79-4b22-9f6e-6ed65e2255d6","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"5bd567f6-5fef-4253-96a9-db84315d9c4d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"5bd567f6-5fef-4253-96a9-db84315d9c4d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"35295960-0f79-4b22-9f6e-6ed65e2255d6","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"4a464293-9e45-4b92-98f3-cbc61f3dc1df","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"4a464293-9e45-4b92-98f3-cbc61f3dc1df","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"d010ab79-5241-48f0-9db9-a5623411673f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"d010ab79-5241-48f0-9db9-a5623411673f","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"5bab77e6-cfca-4c3b-88d3-615af324f5ec","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"5bab77e6-cfca-4c3b-88d3-615af324f5ec","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"d3c1bbb8-9746-4d6e-a92a-870418d5ac97","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"c5161bbe-e729-4952-a11a-d28f30684a68","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d3c1bbb8-9746-4d6e-a92a-870418d5ac97","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"c5161bbe-e729-4952-a11a-d28f30684a68","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"6b95ffa0-1cd8-4ebc-9332-34bcaa5789a5","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/products","requestId":"6b95ffa0-1cd8-4ebc-9332-34bcaa5789a5","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"e5890d8f-fcb0-4f85-a931-70523cf18f82","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/products","requestId":"e5890d8f-fcb0-4f85-a931-70523cf18f82","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"c1b58e38-6288-495b-8690-0964376a4dd5","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"c1b58e38-6288-495b-8690-0964376a4dd5","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"73ff34e0-8bcf-4f83-9892-9c98ff0c65ec","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"73ff34e0-8bcf-4f83-9892-9c98ff0c65ec","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2ac3f917-2fa3-4582-8408-378151223c5c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2ac3f917-2fa3-4582-8408-378151223c5c","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"ac64ca9c-70b0-4ba3-80ab-790c4ddaf8d7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ac64ca9c-70b0-4ba3-80ab-790c4ddaf8d7","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"3acf95ba-f8f4-43a7-8b26-d46a2f4b6884","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"3acf95ba-f8f4-43a7-8b26-d46a2f4b6884","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"92e4525f-4bcc-40ea-8e36-632192cef0a4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"92e4525f-4bcc-40ea-8e36-632192cef0a4","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"431ec165-59ae-42a9-9a90-02bf4427eab4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"431ec165-59ae-42a9-9a90-02bf4427eab4","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"a3937325-6572-4344-9189-458a3e5f7855","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"a3937325-6572-4344-9189-458a3e5f7855","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"e9cc50fb-8baf-4363-bbb7-d68966626b67","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"e9cc50fb-8baf-4363-bbb7-d68966626b67","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"b66732f2-7521-4bbd-b9f7-9df7144cfc5f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"b66732f2-7521-4bbd-b9f7-9df7144cfc5f","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"0936124a-147d-419a-bffa-6b28b1b5f7df","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0936124a-147d-419a-bffa-6b28b1b5f7df","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"d1d96c57-f645-4a3d-83ff-fc481da30e0b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d1d96c57-f645-4a3d-83ff-fc481da30e0b","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"38dc8000-e0ec-4aa4-a679-71847bdfc45e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"38dc8000-e0ec-4aa4-a679-71847bdfc45e","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"b487dea7-389a-45bc-9b45-872d5c12ecf1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"b487dea7-389a-45bc-9b45-872d5c12ecf1","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"0af8cea9-6676-488d-9ca3-ec891eb278d0","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0af8cea9-6676-488d-9ca3-ec891eb278d0","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"3d754fac-1d95-47ef-b077-bca1dac75c3c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"3d754fac-1d95-47ef-b077-bca1dac75c3c","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"85ce8a41-31a5-4f1c-89f3-b9c7ba6f648a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"85ce8a41-31a5-4f1c-89f3-b9c7ba6f648a","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"9a7bda1f-0e6e-492d-add4-caf80cd7264c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"9a7bda1f-0e6e-492d-add4-caf80cd7264c","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"65859bc8-433c-4f3b-9d24-a4205bb6a01a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"65859bc8-433c-4f3b-9d24-a4205bb6a01a","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"733b8db8-ab83-4af9-ad6e-803ac29fee1d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"733b8db8-ab83-4af9-ad6e-803ac29fee1d","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"8db9baef-31aa-4035-854c-e12408430bab","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8db9baef-31aa-4035-854c-e12408430bab","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"5e921d58-2632-43ae-b98c-58ce5a6b259b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"5e921d58-2632-43ae-b98c-58ce5a6b259b","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"58e9708c-3a73-4a32-8ba4-ed3f3cf2a36f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"58e9708c-3a73-4a32-8ba4-ed3f3cf2a36f","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"1f52c1e2-1312-499b-8b92-f4555035a490","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"1f52c1e2-1312-499b-8b92-f4555035a490","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"138bf312-b8a3-45aa-af81-8e501a1c28c6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"138bf312-b8a3-45aa-af81-8e501a1c28c6","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"3bf269d7-5182-4ebd-9f4e-b794b28dd7c4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"3bf269d7-5182-4ebd-9f4e-b794b28dd7c4","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"042732ee-2b3d-466d-be34-fd6a23e47812","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"042732ee-2b3d-466d-be34-fd6a23e47812","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"89c6be71-3b7f-46aa-b340-de3ec313e18e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"89c6be71-3b7f-46aa-b340-de3ec313e18e","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"effeddc9-9b4a-435c-b196-6fdf89aadf62","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"effeddc9-9b4a-435c-b196-6fdf89aadf62","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"6d283861-6e44-461b-952c-36e32c9353c8","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"6d283861-6e44-461b-952c-36e32c9353c8","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"b2ba38d6-5c6f-4364-8f2f-4bedee4818f3","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"b2ba38d6-5c6f-4364-8f2f-4bedee4818f3","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"96110224-b285-49f4-8893-db94c50c7386","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"96110224-b285-49f4-8893-db94c50c7386","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2734c427-eb5b-48cd-a980-b3ac2f1526bc","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2734c427-eb5b-48cd-a980-b3ac2f1526bc","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"8d24dc8b-a250-4a3f-a70f-58d0fbafae4f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8d24dc8b-a250-4a3f-a70f-58d0fbafae4f","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"8d6eb178-1481-4743-afcb-b570d877c0ff","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8d6eb178-1481-4743-afcb-b570d877c0ff","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"f8628721-3c1f-4fa9-95de-f68fba49ebe8","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"f8628721-3c1f-4fa9-95de-f68fba49ebe8","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"d29754f0-492a-4cbd-8b03-9a0d16c4a70c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d29754f0-492a-4cbd-8b03-9a0d16c4a70c","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"6e2ac280-9e47-4a82-bcaf-2cd5bf0b72e5","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"6e2ac280-9e47-4a82-bcaf-2cd5bf0b72e5","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2d0faf38-ce9d-467e-bac5-8576387d7dda","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2d0faf38-ce9d-467e-bac5-8576387d7dda","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"d951c833-3ae7-4cc7-a6c5-9609c8e27e68","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d951c833-3ae7-4cc7-a6c5-9609c8e27e68","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"6389b9cf-0802-489a-ae2e-e99b7b284175","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"6389b9cf-0802-489a-ae2e-e99b7b284175","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"c64b8040-8a5e-4149-9bde-5c450b87a5ae","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"c64b8040-8a5e-4149-9bde-5c450b87a5ae","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"1c584e4b-6b9a-46e3-ba79-3d60798b7575","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"1c584e4b-6b9a-46e3-ba79-3d60798b7575","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2b6c6777-56ca-4e70-a7cb-f5bc9ec539c6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2b6c6777-56ca-4e70-a7cb-f5bc9ec539c6","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"5e588c44-8ac7-42dd-ba90-919b3d61455d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"5e588c44-8ac7-42dd-ba90-919b3d61455d","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"1e327484-bfe8-4ab5-bd08-76e5860f6519","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"94d0139f-8864-48bd-9c0b-2a6a7c606d5a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"1e327484-bfe8-4ab5-bd08-76e5860f6519","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"94d0139f-8864-48bd-9c0b-2a6a7c606d5a","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"dbaf5554-3206-487b-bab5-d9be33175184","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"65176e29-bdef-4503-927a-0bc0c22f71b4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"dbaf5554-3206-487b-bab5-d9be33175184","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"65176e29-bdef-4503-927a-0bc0c22f71b4","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"98324565-7f0e-4148-ae92-528f742248a1","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"25931a8c-3dd1-46ef-af0c-2c56ba862bff","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"98324565-7f0e-4148-ae92-528f742248a1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"25931a8c-3dd1-46ef-af0c-2c56ba862bff","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"0950e055-9d71-4f61-802d-b41b26f14989","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"478f1796-ca65-4de3-beb8-c2e4208d4478","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0950e055-9d71-4f61-802d-b41b26f14989","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"478f1796-ca65-4de3-beb8-c2e4208d4478","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"571ae8e0-2866-4521-9eaa-f1f250644406","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"1db247f9-9208-4c7c-b184-321bafdd667e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"571ae8e0-2866-4521-9eaa-f1f250644406","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"1db247f9-9208-4c7c-b184-321bafdd667e","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"0554752c-5108-4c60-b9df-cd797ba9a70f","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"6df8fae5-c0c6-489a-8dd0-100617f127a6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0554752c-5108-4c60-b9df-cd797ba9a70f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"6df8fae5-c0c6-489a-8dd0-100617f127a6","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"bfcd8317-796b-4a28-9dc8-0ca3811bdf21","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"55c21967-c474-4182-8f46-3f94756bd8e7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"bfcd8317-796b-4a28-9dc8-0ca3811bdf21","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"55c21967-c474-4182-8f46-3f94756bd8e7","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"7475e5e9-0178-4cf7-bd48-4710065be972","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"2af72fd0-0cba-4db5-b1eb-bf58a7e3559a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"7475e5e9-0178-4cf7-bd48-4710065be972","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"2af72fd0-0cba-4db5-b1eb-bf58a7e3559a","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"f9b4ef68-74dc-43b3-bfb8-475332d20721","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"1ed136f9-dcd3-4ef8-ac50-b47aea466edd","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"f9b4ef68-74dc-43b3-bfb8-475332d20721","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"1ed136f9-dcd3-4ef8-ac50-b47aea466edd","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"58de06e0-1e7f-469f-b33b-03406546a490","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"3ba60219-156e-487e-8be0-fe5327beb7c4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"58de06e0-1e7f-469f-b33b-03406546a490","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"3ba60219-156e-487e-8be0-fe5327beb7c4","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"a92936a0-f22e-41a8-b270-55c251a944ef","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"8d108833-6e41-4188-afd2-1924337d041e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"a92936a0-f22e-41a8-b270-55c251a944ef","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"8d108833-6e41-4188-afd2-1924337d041e","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"e3a2bc74-121a-4681-803f-41ca6955b5f7","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"8431782c-e408-485a-a437-dc63fb81318a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"e3a2bc74-121a-4681-803f-41ca6955b5f7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"8431782c-e408-485a-a437-dc63fb81318a","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"8c97283f-42d5-4d88-8fe3-b7659c9089f6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8c97283f-42d5-4d88-8fe3-b7659c9089f6","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"33e2a4cd-4f6e-4fb9-b713-086cda6dea58","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"33e2a4cd-4f6e-4fb9-b713-086cda6dea58","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"fdb186a1-f97a-456c-8211-d5a7ddc2b0ae","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"fdb186a1-f97a-456c-8211-d5a7ddc2b0ae","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"11deaee4-a600-44a4-b1fd-19b602507aa8","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"11deaee4-a600-44a4-b1fd-19b602507aa8","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"22dbd96d-51b9-43c8-a021-74a49154233c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"22dbd96d-51b9-43c8-a021-74a49154233c","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"19145e58-73b7-4a85-a359-0a037e4d97bf","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"19145e58-73b7-4a85-a359-0a037e4d97bf","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"c15268d9-b56f-4caf-adc4-cb248709ec83","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"c15268d9-b56f-4caf-adc4-cb248709ec83","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"201e5a0b-431a-467d-8eb1-bdb80c9b953d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"201e5a0b-431a-467d-8eb1-bdb80c9b953d","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"92666a7e-076e-490d-a832-0d10e4c4ab33","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"92666a7e-076e-490d-a832-0d10e4c4ab33","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"0d681d16-0cc3-4444-aa2f-a0a437f74491","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0d681d16-0cc3-4444-aa2f-a0a437f74491","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"0705676c-1615-4c52-a97d-7f2feb595382","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0705676c-1615-4c52-a97d-7f2feb595382","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"dbd3d168-e121-4199-a60e-add9b3df2e23","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"dbd3d168-e121-4199-a60e-add9b3df2e23","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"f4fb6bf2-9069-43d8-b5d6-326332f5192c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"f4fb6bf2-9069-43d8-b5d6-326332f5192c","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"89ff9712-9f0e-4b05-866f-388150612e1a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"89ff9712-9f0e-4b05-866f-388150612e1a","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"c218f69a-58f2-403d-b980-620bbc7571c2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"c218f69a-58f2-403d-b980-620bbc7571c2","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"0f7c58f6-ca4c-46a8-bb48-df38e17bca26","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0f7c58f6-ca4c-46a8-bb48-df38e17bca26","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"8f49e1d2-684a-4a49-9fbf-52902481b399","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8f49e1d2-684a-4a49-9fbf-52902481b399","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"be20a5ba-ac5d-4217-a784-458fbfedb519","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"be20a5ba-ac5d-4217-a784-458fbfedb519","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"dad925f2-532a-43a5-9503-a1ab07109f29","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"dad925f2-532a-43a5-9503-a1ab07109f29","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"620524b8-6fe1-4e08-81ac-83bf383e50af","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"620524b8-6fe1-4e08-81ac-83bf383e50af","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"0002fd99-5f2e-4375-b332-3ad5af41f593","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0002fd99-5f2e-4375-b332-3ad5af41f593","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"d1e3019d-bd7a-4901-b14c-d3d55f6c73c1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d1e3019d-bd7a-4901-b14c-d3d55f6c73c1","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"3c5d669f-fc0c-411a-892b-47e6c0af7b3f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"3c5d669f-fc0c-411a-892b-47e6c0af7b3f","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"98da6363-1b92-4bb8-907b-2ef9a5e9f3fd","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"98da6363-1b92-4bb8-907b-2ef9a5e9f3fd","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"53ed50c5-c402-4786-8254-b53a04bc4b83","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"53ed50c5-c402-4786-8254-b53a04bc4b83","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"4deca1f6-3b2e-4dde-b789-34f9b982718f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"4deca1f6-3b2e-4dde-b789-34f9b982718f","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"76404fa6-3de5-4228-b292-4df453079b45","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"76404fa6-3de5-4228-b292-4df453079b45","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"999b09ec-97ca-4b69-8faa-0712e0e5d8cb","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"999b09ec-97ca-4b69-8faa-0712e0e5d8cb","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"96082026-8eef-490a-8801-42825fd26632","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"96082026-8eef-490a-8801-42825fd26632","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"53de6a9f-1c1f-402a-9d7b-00e5bde70391","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"53de6a9f-1c1f-402a-9d7b-00e5bde70391","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"367e161c-6bf4-4a4c-9f18-844423402e5c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"367e161c-6bf4-4a4c-9f18-844423402e5c","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"eec8ce40-f77d-43c1-808e-17c473ae94e3","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"eec8ce40-f77d-43c1-808e-17c473ae94e3","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"907abc92-16c8-43c5-8eb4-05764f441b64","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"907abc92-16c8-43c5-8eb4-05764f441b64","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"aca09f24-78e5-409e-a9ea-913c15c9ad99","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"aca09f24-78e5-409e-a9ea-913c15c9ad99","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2f24a487-0ee3-41b7-ad47-58fd9b5dc2b1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2f24a487-0ee3-41b7-ad47-58fd9b5dc2b1","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"e4cb225a-656a-4a90-950c-8d2d818c5db1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"e4cb225a-656a-4a90-950c-8d2d818c5db1","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"1729d64e-3ad6-4d36-a915-c4d6b44c44be","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"1729d64e-3ad6-4d36-a915-c4d6b44c44be","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"db18e12c-2fd8-4247-926b-3baad034bc72","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"db18e12c-2fd8-4247-926b-3baad034bc72","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"234a290a-bebf-41f8-9b50-e1d7cd072cdf","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"234a290a-bebf-41f8-9b50-e1d7cd072cdf","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"8c2a70b2-1651-432c-bd09-ba2f7bc63804","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8c2a70b2-1651-432c-bd09-ba2f7bc63804","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"89e4fc02-9bb5-4caa-a6c4-d28bc909b82d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"89e4fc02-9bb5-4caa-a6c4-d28bc909b82d","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"346925cd-eb75-4a85-acde-5a9f4f240c31","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"346925cd-eb75-4a85-acde-5a9f4f240c31","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"0dca164f-513f-4ba9-a5ce-c27bcf8e107d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"0dca164f-513f-4ba9-a5ce-c27bcf8e107d","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"e88cdbbf-5093-42c4-8078-e737d45864cc","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"e88cdbbf-5093-42c4-8078-e737d45864cc","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"d21bd09c-51fc-4a1d-80b7-3dfc31615ea4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d21bd09c-51fc-4a1d-80b7-3dfc31615ea4","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"abfa22d0-094b-47fe-9e1c-bb032270a868","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"abfa22d0-094b-47fe-9e1c-bb032270a868","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"237a8932-2a16-4511-a0c8-45e174447e9e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"237a8932-2a16-4511-a0c8-45e174447e9e","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"3c00cd02-c38a-435d-b6b3-d832b31032f2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"3c00cd02-c38a-435d-b6b3-d832b31032f2","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"28ed8f9b-974f-421d-860f-e540cf35477b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"28ed8f9b-974f-421d-860f-e540cf35477b","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"fb56a5fb-3f67-4232-855f-51dba68a9d22","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"fb56a5fb-3f67-4232-855f-51dba68a9d22","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"3db27813-9b55-47ea-a72b-56b1e094d799","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"3db27813-9b55-47ea-a72b-56b1e094d799","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2dfa1365-6a7a-46c7-a890-1e56c492227e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2dfa1365-6a7a-46c7-a890-1e56c492227e","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"bc139838-5a35-4e72-85ad-11cf8547f9cb","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"bc139838-5a35-4e72-85ad-11cf8547f9cb","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"517a318b-a803-481e-a261-7588d5d63707","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"517a318b-a803-481e-a261-7588d5d63707","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"7b563ef1-0602-43f4-b169-821e315ea26b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"7b563ef1-0602-43f4-b169-821e315ea26b","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"7177fe9e-ba47-450d-9330-21f66d27b3b2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"7177fe9e-ba47-450d-9330-21f66d27b3b2","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"63bb3c7d-5da8-4c30-9337-73ff22383cfb","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"63bb3c7d-5da8-4c30-9337-73ff22383cfb","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"46e12fd5-b227-48c4-b5c8-a34a90ec581e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"46e12fd5-b227-48c4-b5c8-a34a90ec581e","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"6b0ff26b-66cb-43cd-b7a2-eefd1582faa2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"6b0ff26b-66cb-43cd-b7a2-eefd1582faa2","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"7b3b4bd2-7046-4963-be94-1b5130d9512e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"7b3b4bd2-7046-4963-be94-1b5130d9512e","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"e5560184-e4c5-4833-9ea8-3095e0cd96f9","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"e5560184-e4c5-4833-9ea8-3095e0cd96f9","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"bfb65fb4-3e09-4fed-95ed-1e92c22d319d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"bfb65fb4-3e09-4fed-95ed-1e92c22d319d","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"ed12beb2-aa00-47ec-b57c-dc032e4edc39","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ed12beb2-aa00-47ec-b57c-dc032e4edc39","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"b0bc8f9e-fdac-4511-9a2a-a66bb6db82c7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"b0bc8f9e-fdac-4511-9a2a-a66bb6db82c7","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"a0cb9036-91fb-4be7-bfdb-115a40edd821","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"a0cb9036-91fb-4be7-bfdb-115a40edd821","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"1fca6909-2053-45cd-a612-2fb49d3991de","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"1fca6909-2053-45cd-a612-2fb49d3991de","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"20d94644-7d50-4ddc-8373-4e36335b756f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"20d94644-7d50-4ddc-8373-4e36335b756f","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"87ab7812-9475-424d-a528-5fea33d1bf60","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"87ab7812-9475-424d-a528-5fea33d1bf60","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"24b53a3d-4066-4746-be0a-d0c1023319c9","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"24b53a3d-4066-4746-be0a-d0c1023319c9","service":"api"}
+{"level":"info","message":"Request Started","path":"/cart/add-product","requestId":"d45f6f84-2f1b-4e22-8e18-72b091980d94","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/cart/add-product","requestId":"d45f6f84-2f1b-4e22-8e18-72b091980d94","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"a6867c09-c563-4fdc-a3ac-ea2742b3555d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"a6867c09-c563-4fdc-a3ac-ea2742b3555d","service":"api"}
+{"level":"info","message":"Request Started","path":"/cart/add-product","requestId":"8316d4f8-8908-43b4-885f-760602208a8b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/add-product","requestId":"8316d4f8-8908-43b4-885f-760602208a8b","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"34320c27-da7d-4c43-8c4d-ba456f0d6987","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"34320c27-da7d-4c43-8c4d-ba456f0d6987","service":"api"}
+{"level":"info","message":"Request Started","path":"/cart/add-product","requestId":"52487e41-eeb1-48ea-b4c0-d4717da0b36b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/add-product","requestId":"52487e41-eeb1-48ea-b4c0-d4717da0b36b","service":"api"}
+{"level":"info","message":"Request Started","path":"/cart/add-product","requestId":"d189a988-340f-4249-a06b-d91aeec129b1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/add-product","requestId":"d189a988-340f-4249-a06b-d91aeec129b1","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"5bd58b83-9871-450c-bf0d-63199317c6f4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"5bd58b83-9871-450c-bf0d-63199317c6f4","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"1371036a-1cdf-4141-824d-c7be5d3a2909","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"1371036a-1cdf-4141-824d-c7be5d3a2909","service":"api"}
+{"level":"info","message":"Request Started","path":"/cart/add-product","requestId":"639cb067-a02e-499b-b994-b80fabfd4725","service":"api"}
+{"level":"info","message":"Request Finished","path":"/add-product","requestId":"639cb067-a02e-499b-b994-b80fabfd4725","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"82fc7125-5099-48ce-97b7-98c9f873feb6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"82fc7125-5099-48ce-97b7-98c9f873feb6","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"5941aad2-d0cd-4de3-8ee9-09314db0fd69","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"5941aad2-d0cd-4de3-8ee9-09314db0fd69","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2e505464-fe2c-4bd3-b25c-25754c7bcb47","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2e505464-fe2c-4bd3-b25c-25754c7bcb47","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"791e5bb6-5cb6-4538-822f-ea0054dcca95","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"791e5bb6-5cb6-4538-822f-ea0054dcca95","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"78812c71-57d6-4cd7-b500-eaf0da9412c2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"78812c71-57d6-4cd7-b500-eaf0da9412c2","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"aa8b4f75-3052-4b8b-a304-583051d339e3","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"aa8b4f75-3052-4b8b-a304-583051d339e3","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"f16686df-999c-48b4-aafc-760a2a60263d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"f16686df-999c-48b4-aafc-760a2a60263d","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"723f5146-5a19-40fa-ad55-3dec3e546cb2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"723f5146-5a19-40fa-ad55-3dec3e546cb2","service":"api"}
+{"level":"info","message":"Request Started","path":"/cart/add-product","requestId":"d57e8761-0ed6-4531-8517-fc8a57245236","service":"api"}
+{"level":"info","message":"Request Finished","path":"/add-product","requestId":"d57e8761-0ed6-4531-8517-fc8a57245236","service":"api"}
+{"level":"info","message":"Request Started","path":"/cart/add-product","requestId":"2f2f6f7a-a142-441a-b93b-e9c892dfbf4e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/add-product","requestId":"2f2f6f7a-a142-441a-b93b-e9c892dfbf4e","service":"api"}
+{"level":"info","message":"Request Started","path":"/cart/add-product","requestId":"f5678c20-9718-4237-b8b4-0a8190d43c34","service":"api"}
+{"level":"info","message":"Request Finished","path":"/add-product","requestId":"f5678c20-9718-4237-b8b4-0a8190d43c34","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"ba5f4c91-787d-4c8d-a1c3-afd361321ddd","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ba5f4c91-787d-4c8d-a1c3-afd361321ddd","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"8593a5d1-77be-4875-9ab5-5bcff38bfa96","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8593a5d1-77be-4875-9ab5-5bcff38bfa96","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"c11da829-8566-4a18-9e07-66823e2fdfd9","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"c11da829-8566-4a18-9e07-66823e2fdfd9","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2655067d-a1e3-46fd-a747-cf3c1d31bbcf","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2655067d-a1e3-46fd-a747-cf3c1d31bbcf","service":"api"}
+{"level":"info","message":"Request Started","path":"/cart/add-product","requestId":"8d6d61f1-e8f5-41ba-8497-ac79bf568b3c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/add-product","requestId":"8d6d61f1-e8f5-41ba-8497-ac79bf568b3c","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"47defaba-3181-4bf8-9f88-d39216c23f85","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"47defaba-3181-4bf8-9f88-d39216c23f85","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"6372a24a-fad9-436f-8a61-4ca507cb9bf0","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"6372a24a-fad9-436f-8a61-4ca507cb9bf0","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"e5505cde-39f8-4f25-a02e-fe5e67e18234","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"e5505cde-39f8-4f25-a02e-fe5e67e18234","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"65546d53-ccfb-4d2d-a6aa-ce161dc9a342","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"65546d53-ccfb-4d2d-a6aa-ce161dc9a342","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"bb6d5254-2adc-4d26-89e5-0a45601adefc","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"bb6d5254-2adc-4d26-89e5-0a45601adefc","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"52b756ff-71b7-4f96-beec-afddeef15937","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"52b756ff-71b7-4f96-beec-afddeef15937","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"20c1b065-ca89-4681-9305-be4575aa3700","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"20c1b065-ca89-4681-9305-be4575aa3700","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"97730a40-0c34-448c-94f9-360c9d4c664b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"97730a40-0c34-448c-94f9-360c9d4c664b","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"8b534036-e0b4-49aa-8218-81df55097601","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8b534036-e0b4-49aa-8218-81df55097601","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"263399c6-7b21-4173-9e9a-3b5186a7c61b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"263399c6-7b21-4173-9e9a-3b5186a7c61b","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"a29104a6-9d84-4278-b066-aa507a7222a2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"a29104a6-9d84-4278-b066-aa507a7222a2","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"4c2979e2-b834-4be8-a8b5-c5bb6ba2a0cc","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"4c2979e2-b834-4be8-a8b5-c5bb6ba2a0cc","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"f8791a90-7034-42e8-8248-be0c34654456","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"f8791a90-7034-42e8-8248-be0c34654456","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"76835348-1177-45f3-927f-ea70a9fffb73","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"76835348-1177-45f3-927f-ea70a9fffb73","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"e740a3d3-2a4d-4515-a298-368a89ea4711","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"e740a3d3-2a4d-4515-a298-368a89ea4711","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"64826728-7416-44d9-a269-1a73c4eff26d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"64826728-7416-44d9-a269-1a73c4eff26d","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"a791d11e-b169-4b45-97fa-3d54366b66b1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"a791d11e-b169-4b45-97fa-3d54366b66b1","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2b568739-def2-4f6f-87eb-52cb2c6fe496","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2b568739-def2-4f6f-87eb-52cb2c6fe496","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"49035f64-063a-4def-92c0-021338f1cb3a","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"49035f64-063a-4def-92c0-021338f1cb3a","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"2ddd6091-934c-4f79-b019-a069d88af737","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"2ddd6091-934c-4f79-b019-a069d88af737","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"d5cdd412-3e1a-4769-99e2-051b46c66bf9","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d5cdd412-3e1a-4769-99e2-051b46c66bf9","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"9d5c18f1-ce5e-4654-8692-8034e69a88be","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"9d5c18f1-ce5e-4654-8692-8034e69a88be","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"745887a0-04dc-4a38-9aa3-4b5cfb5c34e1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"745887a0-04dc-4a38-9aa3-4b5cfb5c34e1","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"28ee8c11-5e5d-4f8c-b4cd-1f42d42e8ebb","service":"api"}
+{"level":"error","message":"jwt expired","service":"api"}
+{"level":"info","message":"Request Finished","path":"/user/info","requestId":"28ee8c11-5e5d-4f8c-b4cd-1f42d42e8ebb","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"535f7303-f1d8-4870-bf47-480d10cf2bc5","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"535f7303-f1d8-4870-bf47-480d10cf2bc5","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"b4640f42-d0c9-4602-91a4-a13d66865232","service":"api"}
+{"level":"error","message":"jwt expired","service":"api"}
+{"level":"info","message":"Request Finished","path":"/user/info","requestId":"b4640f42-d0c9-4602-91a4-a13d66865232","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"bdb409aa-8a25-419b-8cbd-79f649c215b3","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"bdb409aa-8a25-419b-8cbd-79f649c215b3","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"cc515f2b-2ab0-49ed-a2c9-eb01999badaa","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"cc515f2b-2ab0-49ed-a2c9-eb01999badaa","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"ceb9a3ec-ab16-488c-94df-dd34d88e969d","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"3f9a6078-eae0-4bae-9e56-e94f8eec750c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"3f9a6078-eae0-4bae-9e56-e94f8eec750c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ceb9a3ec-ab16-488c-94df-dd34d88e969d","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"3045a36c-1644-4b0b-94b2-ffc9fb7c3d31","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"3045a36c-1644-4b0b-94b2-ffc9fb7c3d31","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"484f67ff-5989-47ea-a0d8-14e031209407","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"484f67ff-5989-47ea-a0d8-14e031209407","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"85adcb86-9d5e-42ba-bb9d-9cf94ef2b12f","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"00217707-f24a-4940-89e3-2eafad3b1225","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"00217707-f24a-4940-89e3-2eafad3b1225","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"85adcb86-9d5e-42ba-bb9d-9cf94ef2b12f","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"80fb7d77-1031-4807-a41b-06ab6d9718db","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"6321c762-e7b6-4f2a-9108-c99cd44707ea","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"6321c762-e7b6-4f2a-9108-c99cd44707ea","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"80fb7d77-1031-4807-a41b-06ab6d9718db","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"93718746-668d-4909-a71b-fd617550e160","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"93718746-668d-4909-a71b-fd617550e160","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"965a6427-e3f6-42bd-83d4-804c5d4defc6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"965a6427-e3f6-42bd-83d4-804c5d4defc6","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"8bc331f7-d5df-4ffc-ac9f-c123176a7629","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"0fe586dc-6773-4c2f-9763-5a85b2f63cad","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"0fe586dc-6773-4c2f-9763-5a85b2f63cad","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8bc331f7-d5df-4ffc-ac9f-c123176a7629","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"696c7ea7-bea6-4caf-96b7-acbcc4243443","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"6a8796b1-a435-428e-aa71-8260a668b17c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"6a8796b1-a435-428e-aa71-8260a668b17c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"696c7ea7-bea6-4caf-96b7-acbcc4243443","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"ec608f10-6b9f-496a-825c-39a38ff048eb","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"0bc650f6-495f-4115-8576-0ba18d279ffa","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"0bc650f6-495f-4115-8576-0ba18d279ffa","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ec608f10-6b9f-496a-825c-39a38ff048eb","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"708e176b-2874-4414-becf-fbcae03e03a4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"708e176b-2874-4414-becf-fbcae03e03a4","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"db896129-5ef6-4adc-ad28-66115f71dd9f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"db896129-5ef6-4adc-ad28-66115f71dd9f","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"a1599108-3def-42fe-87e2-3f60ff2e017c","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"cf28d2cb-745e-4fdc-8c45-b275f9e2da44","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/user/info","requestId":"cf28d2cb-745e-4fdc-8c45-b275f9e2da44","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"a1599108-3def-42fe-87e2-3f60ff2e017c","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"c4d07fa8-0fc3-484b-80c5-778a2f501b35","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"21fabeca-79d8-4258-8d75-cc1641dada52","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/user/info","requestId":"21fabeca-79d8-4258-8d75-cc1641dada52","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"c4d07fa8-0fc3-484b-80c5-778a2f501b35","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"ce7c4bb3-371f-4c11-8f8f-e836c6fb8751","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"d05a30b7-9eed-49eb-8812-e375c9608ea3","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"info","message":"Request Finished","path":"/user/info","requestId":"d05a30b7-9eed-49eb-8812-e375c9608ea3","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ce7c4bb3-371f-4c11-8f8f-e836c6fb8751","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"80113ea3-af53-4e42-914f-a40cf64d7d50","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"80113ea3-af53-4e42-914f-a40cf64d7d50","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"ffec41aa-c56a-4063-b8cc-2fe8d891248d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ffec41aa-c56a-4063-b8cc-2fe8d891248d","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"56bd7224-7fef-469e-965e-f450a01f2a00","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"dd399508-83cf-482f-aaea-528185d20a7d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"dd399508-83cf-482f-aaea-528185d20a7d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"56bd7224-7fef-469e-965e-f450a01f2a00","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"1e5b1cca-918b-4474-a3d8-c1bc3e01a8e7","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"0c2003f2-0787-4af6-953b-8fc781f42df9","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"1e5b1cca-918b-4474-a3d8-c1bc3e01a8e7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"0c2003f2-0787-4af6-953b-8fc781f42df9","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"6af6565a-1418-49f7-9d33-2c7ed7bfe245","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"c49f664b-fb62-4e8a-81d3-bbc530701f79","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"c49f664b-fb62-4e8a-81d3-bbc530701f79","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"6af6565a-1418-49f7-9d33-2c7ed7bfe245","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"bc7d3593-c4f7-4bc6-854d-3bb771ba21d6","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"9e3c5b82-b601-45c4-92a9-583647bb12ec","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"bc7d3593-c4f7-4bc6-854d-3bb771ba21d6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"9e3c5b82-b601-45c4-92a9-583647bb12ec","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"3b40c713-2ee6-4bbf-b8a0-f21c7a34ac5b","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"41dfe2b0-0d42-46c0-8c15-1ea8b6a28eca","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"3b40c713-2ee6-4bbf-b8a0-f21c7a34ac5b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"41dfe2b0-0d42-46c0-8c15-1ea8b6a28eca","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"e01eb5e9-6fb6-4bdc-b1ed-cd6a738a7c33","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"30150536-4d4c-430e-8c4e-beda802a57a2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"e01eb5e9-6fb6-4bdc-b1ed-cd6a738a7c33","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"30150536-4d4c-430e-8c4e-beda802a57a2","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"d409c3ad-db53-4e56-9067-ee5dcf173464","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"ecfb5413-b930-4473-b794-5901bf8106ef","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d409c3ad-db53-4e56-9067-ee5dcf173464","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"ecfb5413-b930-4473-b794-5901bf8106ef","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"66a9b5b9-7bbf-4554-9f47-4140dbd50be4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"66a9b5b9-7bbf-4554-9f47-4140dbd50be4","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"356f3bcc-b7ba-4a93-a304-282ea15716b5","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"356f3bcc-b7ba-4a93-a304-282ea15716b5","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"ce0795c3-aaed-4960-8b0f-e3bd272f6006","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ce0795c3-aaed-4960-8b0f-e3bd272f6006","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"7b6460e9-e6ae-4977-a541-818373f313da","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"0eea0c7b-ea21-43ba-b443-2680e9bc6acf","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"7b6460e9-e6ae-4977-a541-818373f313da","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"0eea0c7b-ea21-43ba-b443-2680e9bc6acf","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"ef8e3537-ba21-44ec-a49d-61ce5403f99b","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"f90198e3-b120-4406-b1bb-abf4f62ea9ea","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"ef8e3537-ba21-44ec-a49d-61ce5403f99b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"f90198e3-b120-4406-b1bb-abf4f62ea9ea","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"bba8e7bb-201f-4472-b17c-9bb55a79f5b7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"bba8e7bb-201f-4472-b17c-9bb55a79f5b7","service":"api"}
+{"level":"info","message":"Request Started","path":"/countries","requestId":"9b9f2875-0a57-4b4d-ad77-ae2ec40ab4df","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"9b9f2875-0a57-4b4d-ad77-ae2ec40ab4df","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"3105f881-7864-4a61-82bc-1b2ac0d1492e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"3105f881-7864-4a61-82bc-1b2ac0d1492e","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"860e055d-0f4c-4218-812f-f99098ca13c2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"860e055d-0f4c-4218-812f-f99098ca13c2","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"227e543b-e1c7-4216-a980-d8780b07bef6","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"f9a0a4b8-7d74-492a-90b9-0da88cf51346","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"227e543b-e1c7-4216-a980-d8780b07bef6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"f9a0a4b8-7d74-492a-90b9-0da88cf51346","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"751fe566-036d-4043-b56f-c63f402a2427","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"754ebcb0-af65-4cd4-a02b-dd7c003f88b2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"751fe566-036d-4043-b56f-c63f402a2427","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"754ebcb0-af65-4cd4-a02b-dd7c003f88b2","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"d0865165-968a-46cb-a99f-151dfce36107","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"15405ca7-6fb2-4833-b555-1b040a28fe8f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"d0865165-968a-46cb-a99f-151dfce36107","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"15405ca7-6fb2-4833-b555-1b040a28fe8f","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"852a3a1c-4e84-4ace-8fa5-7388ebc2dff7","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"a93ffe79-e551-4b3e-8dbf-68737de4fc89","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"852a3a1c-4e84-4ace-8fa5-7388ebc2dff7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"a93ffe79-e551-4b3e-8dbf-68737de4fc89","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"82db3dd3-c014-4749-ba6d-71359add90cf","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"b2fa9665-1113-4deb-a6ca-d25a8ee4712f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"82db3dd3-c014-4749-ba6d-71359add90cf","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"b2fa9665-1113-4deb-a6ca-d25a8ee4712f","service":"api"}
+{"level":"info","message":"Request Started","path":"/products","requestId":"a6e21359-a213-4fe8-bb57-6acedcb6df1f","service":"api"}
+{"level":"info","message":"Request Started","path":"/user/info","requestId":"4133087d-bef1-4764-b9e9-d4237e0065d9","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"a6e21359-a213-4fe8-bb57-6acedcb6df1f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/info","requestId":"4133087d-bef1-4764-b9e9-d4237e0065d9","service":"api"}

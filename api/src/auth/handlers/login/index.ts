@@ -7,11 +7,11 @@ export async function getUserByEmail(email: string): Promise<any> {
     return data[0]
 }
 
-export async function login(email: string, password: string): Promise<boolean> {
+export async function login(email: string, password: string): Promise<{ result: boolean, userRecord: any }> {
     const userRecord = await getUserByEmail(email);
     if (!userRecord) throw new Error("User not exist");
     const { salt: userRecordSalt, hashedPassword: userRecordPassword } = userRecord as any
     const hashedPassword = await getHashedPassword(password, userRecordSalt)
     const result = hashedPassword.password === userRecordPassword
-    return result;
+    return { result, userRecord };
 }

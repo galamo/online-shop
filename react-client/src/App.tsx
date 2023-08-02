@@ -7,6 +7,12 @@ import NotFound from './components/pages/not-found'
 import RegistrationComponent from './components/pages/signup'
 import { ProtectedRoute } from './components/ui-components/protected-route'
 import CustomersPage from './components/pages/customers'
+import ProductsPage from './components/pages/products'
+
+import 'primeflex/primeflex.css';
+import 'primeicons/primeicons.css';
+
+
 console.log("test")
 interface IRoute {
     path: string,
@@ -38,6 +44,12 @@ const routes: Array<IRoute> = [
         component: <CustomersPage />,
         key: "customers",
         label: "Customers"
+    },
+    {
+        path: "/products",
+        component: <ProductsPage />,
+        key: "products",
+        label: "Products"
     },
     {
         path: "*",

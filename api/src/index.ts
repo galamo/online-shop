@@ -9,6 +9,7 @@ import { pool } from "./database"
 import jsonwebtoken from "jsonwebtoken"
 import dotenv from "dotenv"
 import cors from "cors"
+import { userRouter } from "./user/route"
 dotenv.config()
 
 const app = express();
@@ -23,9 +24,10 @@ app.get("/health-check", function (req, res, next) {
 
 app.use("/customers", customersRouter)
 app.use("/auth", authRouter)
-app.use(verifyAuthentication)
 app.use("/products", productsRouter)
 app.use("/cart", cartRouter)
+app.use(verifyAuthentication)
+app.use("/user", userRouter)
 app.use("/countries", countriesRouter)
 
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
@@ -43,8 +45,11 @@ function verifyAuthentication(req: Request, res: Response, next) {
         if (err) {
             console.log(`${new Date().toISOString()} => requestId: ${res.getHeader("x-request-id")} | User Token invalid ${err.message}`)
             logger.error({ message: err.message })
+
             return res.status(401).send("Authentication error")
         } else {
+            (req as any).currentUserName = decoded.userName;
+            (req as any).currentUserId = decoded.id;
             console.log(`${new Date().toISOString()} => requestId: ${res.getHeader("x-request-id")} | User authenticated Successfully`)
             return next()
         }

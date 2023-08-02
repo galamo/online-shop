@@ -61,3 +61,18 @@ Q: what you will see when typing `docker ps`
 2. the feature includes a Products Page that present all the products GET /products
 3. AddProductToCart - POST /addToCart/:cartId/:productId
 4. Advanced - Create Cart page
+
+## Solution 
+1. Cart Table
+- cartId
+- userId 
+- createAt
+- isOpen 
+- status - open / closed / deleted 
+2. CartProduct
+- id
+- cartId
+- productId
+- quantity
+- price ? 
+- createdAt

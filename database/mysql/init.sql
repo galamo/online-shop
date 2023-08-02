@@ -44,6 +44,15 @@ CREATE TABLE `Users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+CREATE TABLE `carts` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `userId` int NOT NULL,
+  `status` varchar(45) DEFAULT NULL,
+  `createdAt` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `cart_user_id_idx` (`userId`),
+  CONSTRAINT `cart_user_id` FOREIGN KEY (`userId`) REFERENCES `users` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
 
@@ -95,6 +104,22 @@ CREATE TABLE Products(
 	FOREIGN KEY (CategoryID) REFERENCES Categories (CategoryID),
 	FOREIGN KEY (SupplierID) REFERENCES Suppliers (SupplierID)
 );
+
+CREATE TABLE `carts_products` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `productId` int NOT NULL,
+  `cartId` int NOT NULL,
+  `price` decimal(10,0) DEFAULT NULL,
+  `quantity` int NOT NULL DEFAULT '1',
+  `createdAt` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `cart_id_idx` (`cartId`),
+  KEY `product_id_idx` (`productId`),
+  CONSTRAINT `cart_id` FOREIGN KEY (`cartId`) REFERENCES `carts` (`id`),
+  CONSTRAINT `product_id` FOREIGN KEY (`productId`) REFERENCES `products` (`ProductID`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
 
 CREATE TABLE Orders(
     OrderID INTEGER PRIMARY KEY AUTO_INCREMENT,
