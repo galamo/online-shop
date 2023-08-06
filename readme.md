@@ -89,7 +89,7 @@ Q: what you will see when typing `docker ps`
   - teamBid
   - teamAScore
   - teamBscore
-  - gameTime
+  - gameTime - date & time ( use date picker in the UI )
 - Table: Teams
   - teamId
   - teamName
@@ -103,7 +103,7 @@ Q: what you will see when typing `docker ps`
 - GET /team ( this API will return the team information according to the team name sent)
 - GET /teams (this API will return all the teams)
 - POST /team/new - create new team with all the relevant data
-- POST /game/new - reate a game with time and score
+- POST /game/new - create a game with time and score
 3. Create React Client 
 - create the following routes
 - create a route for the games
