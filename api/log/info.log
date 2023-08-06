@@ -2138,3 +2138,7 @@
 {"level":"info","message":"Request Started","path":"/customers/count","requestId":"e69f7225-f12e-442d-9d6a-c724f6ba0686","service":"api"}
 {"level":"info","message":"Request Finished","path":"/","requestId":"65f36c6d-0a4a-44bf-9f87-7420822994a4","service":"api"}
 {"level":"info","message":"Request Finished","path":"/count","requestId":"e69f7225-f12e-442d-9d6a-c724f6ba0686","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"8efae28b-f8ff-451e-9d6f-979045ecc4dc","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"5b2549fa-8704-47bd-952a-bbf823a4e90b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"8efae28b-f8ff-451e-9d6f-979045ecc4dc","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"5b2549fa-8704-47bd-952a-bbf823a4e90b","service":"api"}
