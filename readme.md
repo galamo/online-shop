@@ -84,19 +84,24 @@ Q: what you will see when typing `docker ps`
 1. Create Database 
 - Schema: Sport5
 - Table Games
+ <!-- 1 | 23 | 24 |  5 |  1 | 2023-08-06 17:00:00  -->
   - id
-  - teamAId
-  - teamBid
+  - teamAId ( FK from teams table teamId )
+  - teamBid ( FK from teams table teamId )
   - teamAScore
   - teamBscore
   - gameTime - date & time ( use date picker in the UI )
 - Table: Teams
+<!-- 23 | Macabi Haifa | Haifa |  Green |  white | https://semel.jpeg  -->
+<!-- 24 | Macabi Tel Aviv | TelAviv |  Yellow |  blue | https://semel.jpeg  -->
   - teamId
   - teamName
   - city
   - mainColor
   - secondaryColor
   - Semel - link to picture
+
+<!-- select <Columns> from <TABLEA> join <TABLEB> on <TABLEA.Col> =  <TABLEB.Col>  -->
 
 2. Crecate nodejs API
 - GET /Games ( this API will return all the games with the teams names and colors)
