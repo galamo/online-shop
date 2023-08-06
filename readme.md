@@ -76,3 +76,29 @@ Q: what you will see when typing `docker ps`
 - quantity
 - price ? 
 - createdAt
+
+
+
+
+# Homework 6/8
+1. Create Database 
+- Schema: Sport5
+- Table Games
+  - id
+  - teamAId
+  - teamBid
+  - teamAScore
+  - teamBscore
+  - gameTime
+- Table: Teams
+  - teamId
+  - teamName
+  - city
+  - mainColor
+  - secondaryColor
+  - Semel
+
+2. Create nodejs API
+- GET /Games ( this API will return all the games with the teams names and colors)
+- GET /team ( this API will return the team information according to the team name sent)
+3. Create React Client 

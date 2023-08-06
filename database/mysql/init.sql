@@ -56,18 +56,19 @@ CREATE TABLE `carts` (
   CONSTRAINT `cart_user_id` FOREIGN KEY (`userId`) REFERENCES `users` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+CREATE TABLE `customers` (
+  `CustomerID` int NOT NULL AUTO_INCREMENT,
+  `CustomerName` varchar(50) DEFAULT NULL,
+  `ContactName` varchar(50) DEFAULT NULL,
+  `Address` varchar(50) DEFAULT NULL,
+  `City` varchar(20) DEFAULT NULL,
+  `PostalCode` varchar(10) DEFAULT NULL,
+  `Country` varchar(15) DEFAULT NULL,
+  `createdAt` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`CustomerID`)
+) ENGINE=InnoDB AUTO_INCREMENT=92 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
-CREATE TABLE Customers
-(      
-    CustomerID INTEGER PRIMARY KEY AUTO_INCREMENT,
-    CustomerName VARCHAR(50),
-    ContactName VARCHAR(50),
-    Address VARCHAR(50),
-    City VARCHAR(20),
-    PostalCode VARCHAR(10),
-    Country VARCHAR(15)
-);
 
 CREATE TABLE Employees
 (
