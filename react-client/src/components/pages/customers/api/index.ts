@@ -6,7 +6,8 @@ export interface ICustomer {
     city: string,
     country: string,
     contact: string,
-    address: string
+    address: string,
+    createdAt: string
 }
 
 async function getAllCustomersService(limit: number = 10): Promise<Array<ICustomer>> {
@@ -21,10 +22,14 @@ async function getAllCustomersService(limit: number = 10): Promise<Array<ICustom
             city: c.City,
             country: c.Country,
             address: c.Address,
+            createdAt: c.createdAt, //new Date(c.createdAt).toLocaleString()
         }
     })
     return customers;
 }
+
+
+
 
 async function getCustomersCountService(): Promise<number> {
     const { data } = await axios.get(`http://localhost:4000/customers/count`)

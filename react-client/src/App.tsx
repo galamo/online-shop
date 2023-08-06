@@ -1,4 +1,5 @@
 import './App.css'
+import { createContext, useState } from 'react'
 import CountriesPage from './components/pages/countries'
 import { Routes, Route, Link, useNavigate } from "react-router-dom"
 import { Button } from 'primereact/button'
@@ -8,6 +9,8 @@ import RegistrationComponent from './components/pages/signup'
 import { ProtectedRoute } from './components/ui-components/protected-route'
 import CustomersPage from './components/pages/customers'
 import ProductsPage from './components/pages/products'
+import { InputSwitch } from 'primereact/inputswitch';
+
 
 import 'primeflex/primeflex.css';
 import 'primeicons/primeicons.css';
@@ -76,27 +79,49 @@ function OnlyAdmin(props: any) {
         return <></>
     }
 }
+
+export const UTCContext = createContext<{ isUtc: boolean }>({ isUtc: true })
+
 function App() {
     const navigate = useNavigate();
+    const [isUtc, setIsUtc] = useState(false)
     function logoutHandler() {
         navigate("/login")
     }
+
     return (
-        <div>
-            <div style={{ width: "100%", top: 0, left: 0, position: "absolute", textAlign: "right" }}>
-                <Button onClick={logoutHandler}> Log Out</Button>
-            </div>
-            <div style={{ marginTop: "50px" }}>
-                {routes.filter(showRoutesPerRole).filter(r => r.label).map((route: IRoute) => {
-                    return <Link key={route.label} to={route.path} > {route.label} </Link>
-                })}
-                <Routes>
-                    {routes.map((route: IRoute) => {
-                        return <Route path={route.path} key={route.key} element={route.component} />
+        <UTCContext.Provider value={{ isUtc }}>
+            <div>
+                <div>
+                    <h5>  Utc time?</h5>
+                    <InputSwitch checked={isUtc} onChange={(__avi_stop__) => {
+                        setIsUtc(!isUtc)
+                    }} />
+                </div>
+                <div>
+                    <h5>  Format? Use DateFNS - https://date-fns.org/v1.29.0/docs/format</h5>
+                    <div>
+                        <input id="formatA" type='radio' name="format" /> yyyy-MMM-dd HH:mm:SS
+                    </div>
+                    <div>
+                        <input id="formatB" type='radio' name="format" /> yy/MM/dd HH:mm:SS
+                    </div>
+                </div>
+                <div style={{ width: "100%", top: 0, left: 0, position: "absolute", textAlign: "right" }}>
+                    <Button onClick={logoutHandler}> Log Out</Button>
+                </div>
+                <div style={{ marginTop: "50px" }}>
+                    {routes.filter(showRoutesPerRole).filter(r => r.label).map((route: IRoute) => {
+                        return <Link key={route.label} to={route.path} > {route.label} </Link>
                     })}
-                </Routes>
+                    <Routes>
+                        {routes.map((route: IRoute) => {
+                            return <Route path={route.path} key={route.key} element={route.component} />
+                        })}
+                    </Routes>
+                </div>
             </div>
-        </div>
+        </UTCContext.Provider>
     )
 }
 
