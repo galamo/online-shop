@@ -11,6 +11,7 @@ import ProductsPage from './components/pages/products'
 
 import 'primeflex/primeflex.css';
 import 'primeicons/primeicons.css';
+import AddProductPage from './components/pages/addProduct'
 
 
 console.log("test")
@@ -18,7 +19,8 @@ interface IRoute {
     path: string,
     key: string,
     component: any,
-    label?: string
+    label?: string,
+    onlyAdmin?: boolean
 }
 const routes: Array<IRoute> = [
     {
@@ -52,13 +54,28 @@ const routes: Array<IRoute> = [
         label: "Products"
     },
     {
+        path: "/add-product",
+        component: <AddProductPage />,
+        label: "Add Product",
+        key: "AddProductPage",
+        onlyAdmin: true
+    },
+    {
         path: "*",
         component: <NotFound />,
         key: "not found",
     }
+
 ]
 
-
+function OnlyAdmin(props: any) {
+    const { Component } = props
+    if (localStorage.getItem("role") === "admin") {
+        return <Component />
+    } else {
+        return <></>
+    }
+}
 function App() {
     const navigate = useNavigate();
     function logoutHandler() {
@@ -70,7 +87,7 @@ function App() {
                 <Button onClick={logoutHandler}> Log Out</Button>
             </div>
             <div style={{ marginTop: "50px" }}>
-                {routes.filter(r => r.label).map((route: IRoute) => {
+                {routes.filter(showRoutesPerRole).filter(r => r.label).map((route: IRoute) => {
                     return <Link key={route.label} to={route.path} > {route.label} </Link>
                 })}
                 <Routes>
@@ -83,6 +100,13 @@ function App() {
     )
 }
 
+function showRoutesPerRole(route: IRoute) {
+    return true;
+    // check only users that have admin OR regular users.
+
+    // if (localStorage.getItem("role") !== "admin") return true
+    // return route.onlyAdmin && localStorage.getItem("role") === "admin"
+}
 
 
 

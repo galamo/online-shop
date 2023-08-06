@@ -24,9 +24,9 @@ app.get("/health-check", function (req, res, next) {
 
 app.use("/customers", customersRouter)
 app.use("/auth", authRouter)
-app.use("/products", productsRouter)
 app.use("/cart", cartRouter)
 app.use(verifyAuthentication)
+app.use("/products", productsRouter)
 app.use("/user", userRouter)
 app.use("/countries", countriesRouter)
 
@@ -50,6 +50,7 @@ function verifyAuthentication(req: Request, res: Response, next) {
         } else {
             (req as any).currentUserName = decoded.userName;
             (req as any).currentUserId = decoded.id;
+            (req as any).currentUserRole = decoded.role;
             console.log(`${new Date().toISOString()} => requestId: ${res.getHeader("x-request-id")} | User authenticated Successfully`)
             return next()
         }

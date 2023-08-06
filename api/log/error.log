@@ -23,3 +23,9 @@
 {"level":"error","message":"jwt must be provided","service":"api"}
 {"level":"error","message":"jwt must be provided","service":"api"}
 {"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"invalid signature","service":"api"}
+{"level":"error","message":"invalid signature","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"jwt must be provided","service":"api"}
+{"level":"error","message":"invalid token","service":"api"}

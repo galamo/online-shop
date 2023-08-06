@@ -33,7 +33,7 @@ CREATE TABLE Categories
 );
 
 
-CREATE TABLE `Users` (
+CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `email` varchar(100) NOT NULL,
   `password` varchar(200) NOT NULL,
@@ -41,8 +41,10 @@ CREATE TABLE `Users` (
   `lastName` varchar(45) DEFAULT NULL,
   `hashedPassword` varchar(256) NOT NULL,
   `salt` varchar(100) NOT NULL,
+  `role` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
 
 CREATE TABLE `carts` (
   `id` int NOT NULL AUTO_INCREMENT,

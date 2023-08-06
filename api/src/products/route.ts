@@ -3,15 +3,14 @@ import express from "express"
 import products from "./data"
 import zod from "zod"
 import { getAllProducts } from "./handlers/getProducts";
+import { addProduct } from "./handlers/addProduct";
 // import { tokens } from "../auth/route";
 const productsRouter = express.Router();
 // tokens
 const productBody = zod.object({
-    id: zod.number(),
-    title: zod.string().max(20).optional(),
-    images: zod.array(zod.string()),
-    rating: zod.number().max(5),
-    category: zod.enum(["dairy", "drinks", "food", "fruits",])
+    productName: zod.string().max(100),
+    price: zod.number(),
+    category: zod.number(),
 })
 
 productsRouter.get("/", async function (req, res, next) {
@@ -27,49 +26,31 @@ productsRouter.get("/", async function (req, res, next) {
 productsRouter.get("/:id", function (req, res, next) {
     return res.json(products) // filter by id
 })
-
-
-productsRouter.post("/new", function (req, res, next) {
-
+// POST product/new 
+productsRouter.post("/new", verifyAdmin, async function (req, res, next) {
     try {
-        productBody.parse(req.body)
 
-        const { id,
-            title,
-            description,
-            price,
-            discountPercentage,
-            rating,
-            stock,
-            brand,
-            category,
-            thumbnail,
-            images } = req.body;
-        products.push({
-            id,
-            title,
-            description,
-            price,
-            discountPercentage,
-            rating,
-            stock,
-            brand,
-            category,
-            thumbnail,
-            images
-        })
+        productBody.parse(req.body)
+        const { productName, categoryId, price } = req.body;
+        const result = await addProduct({ productName, categoryId, price })
         return res.json({ message: "Product Added!" })
     } catch (error) {
         const { errors } = error
         console.log(errors[0].path[0] + "=> " + errors[0].message)
         res.status(400).json({ error: errors[0].path[0] + "=> " + errors[0].message })
     }
-
-
-
 })
 
-
+function verifyAdmin(req, res, next) {
+    try {
+        const role = (req as any).currentUserRole;
+        console.log(role, "role $$$$$$$$$$$$$$$$$$$$$$$$$")
+        if (role === "admin") return next();
+        throw new Error()
+    } catch (error) {
+        return res.status(403).send()
+    }
+}
 
 productsRouter.put("/:pid", function (req, res, next) {
     try {
