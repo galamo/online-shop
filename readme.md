@@ -152,8 +152,8 @@ WHERE
 - Schema: CarRental
 - Table Cars
   - id
-  - car ( FK from teams table teamId )
-  - lp ( FK from teams table teamId )
+  - car 
+  - lp
   - color
   - engine
   - company
@@ -166,5 +166,5 @@ WHERE
   - price ( calculate per day)
 
 
-2. Support creating Car, create renal & validate the car cannot be rental twice
+2. Support creating Car, create renal & validate the car cannot be rental double booked
 3. show all the current rentals 
