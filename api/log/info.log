@@ -2142,3 +2142,7 @@
 {"level":"info","message":"Request Started","path":"/customers/count","requestId":"5b2549fa-8704-47bd-952a-bbf823a4e90b","service":"api"}
 {"level":"info","message":"Request Finished","path":"/","requestId":"8efae28b-f8ff-451e-9d6f-979045ecc4dc","service":"api"}
 {"level":"info","message":"Request Finished","path":"/count","requestId":"5b2549fa-8704-47bd-952a-bbf823a4e90b","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers","requestId":"c74f38ed-857f-443c-b9fb-753d91d698e7","service":"api"}
+{"level":"info","message":"Request Started","path":"/customers/count","requestId":"9502037f-9127-48f4-98e6-58f084ecd197","service":"api"}
+{"level":"info","message":"Request Finished","path":"/","requestId":"c74f38ed-857f-443c-b9fb-753d91d698e7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/count","requestId":"9502037f-9127-48f4-98e6-58f084ecd197","service":"api"}

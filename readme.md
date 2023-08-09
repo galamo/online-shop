@@ -116,3 +116,31 @@ Q: what you will see when typing `docker ps`
 - create a route for creating new team
 - create a route for creating a new game based on the existing teams
 
+
+## Solution Query
+
+```sql
+
+SELECT 
+    team1.teamId AS 'Home Team Id',
+    team1.name AS 'Home Team',
+    team2.teamId AS 'Away Team Id',
+    team2.name AS 'Away Team',
+    sport5.games.teamAScore,
+    sport5.games.teamBScore,
+    gameDateTime
+FROM
+    sport5.teams AS team1
+        JOIN
+    sport5.games ON sport5.team1.teamId = sport5.games.teamAId
+        JOIN
+    sport5.teams AS team2 ON team2.teamId = sport5.games.teamBId
+WHERE
+    team1.name = 'Macabi Tel Aviv'
+        OR team2.name = 'Macabi Tel Aviv'
+
+
+
+```
+
+

@@ -10,7 +10,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: admin
     volumes:
-      - "./mysql:/docker-entrypoint-initdb.d"  
+      - "./mysql:/docker-entrypoint-initdb.d"
   # api:
   #   image: api
   #   build: ../api
