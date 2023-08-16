@@ -1,11 +1,9 @@
 const { expect } = require("chai")
 const axios = require("axios")
 
-
-
 describe("POST /auth/sign-up", function () {
 
-    
+
 
     it("Create new user Success ", async function () {
         const dummyUser = {
@@ -17,7 +15,7 @@ describe("POST /auth/sign-up", function () {
         const result = await axios.post("http://localhost:4000/auth/sign-up", dummyUser)
         expect(result.status).equal(200)
     })
-    it("Create new user  With bad request ", async function () {
+    it("Create new user  With bad request", async function () {
         try {
             const dummyEmail = `email${Date.now()}@gmail.com`
             const dummyUser = {
@@ -49,18 +47,18 @@ describe("POST /auth/sign-up", function () {
         }
     })
 })
-
 describe("POST /auth/login", function () {
     it("Create new user Success ", async function () {
         const dummyUser = {
             email: `email${Date.now()}@gmail.com`,
             password: "1234",
-            gender: "male",
-            phone: "0506021"
+            firstName: "male",
+            lastName: "0506021"
         }
         await axios.post("http://localhost:4000/auth/sign-up", dummyUser)
         const resultLogin = await axios.post("http://localhost:4000/auth/login", { email: dummyUser.email, password: dummyUser.password })
         expect(typeof resultLogin.data.token).equal("string")
+        expect(resultLogin.status).equal(200)
     })
 
 })

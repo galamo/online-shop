@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.customersRouter = exports.productsRouter = exports.countriesRouter = exports.cartRouter = exports.authRouter = void 0;
+var route_1 = require("./auth/route");
+Object.defineProperty(exports, "authRouter", { enumerable: true, get: function () { return route_1.authRouter; } });
+var route_2 = require("./cart/route");
+Object.defineProperty(exports, "cartRouter", { enumerable: true, get: function () { return route_2.cartRouter; } });
+var route_3 = require("./countries/route");
+Object.defineProperty(exports, "countriesRouter", { enumerable: true, get: function () { return route_3.countriesRouter; } });
+var route_4 = require("./products/route");
+Object.defineProperty(exports, "productsRouter", { enumerable: true, get: function () { return route_4.productsRouter; } });
+var customers_1 = require("./customers");
+Object.defineProperty(exports, "customersRouter", { enumerable: true, get: function () { return customers_1.customersRouter; } });

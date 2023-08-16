@@ -2146,3 +2146,163 @@
 {"level":"info","message":"Request Started","path":"/customers/count","requestId":"9502037f-9127-48f4-98e6-58f084ecd197","service":"api"}
 {"level":"info","message":"Request Finished","path":"/","requestId":"c74f38ed-857f-443c-b9fb-753d91d698e7","service":"api"}
 {"level":"info","message":"Request Finished","path":"/count","requestId":"9502037f-9127-48f4-98e6-58f084ecd197","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"3743dbcd-0e5c-497d-8f16-fa2fd3b5fab8","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"3743dbcd-0e5c-497d-8f16-fa2fd3b5fab8","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"9b3c5c9d-4576-46a4-892b-5a660f671c6b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"9b3c5c9d-4576-46a4-892b-5a660f671c6b","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"e8633f36-d96d-47d3-8788-6f6f69e28ecd","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"e8633f36-d96d-47d3-8788-6f6f69e28ecd","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"38dacf77-d72e-47d5-b16a-226c501ff915","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"38dacf77-d72e-47d5-b16a-226c501ff915","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"c6ade8f0-e964-4702-96e1-907a23335b10","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"c6ade8f0-e964-4702-96e1-907a23335b10","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"d31518e6-6a86-4148-b3df-cd603539d4cf","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"d31518e6-6a86-4148-b3df-cd603539d4cf","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"2f5995e3-b310-4883-bb25-52af8d486250","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"2f5995e3-b310-4883-bb25-52af8d486250","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"4c7c3c0a-bec2-4acd-9b31-72c8510d4a77","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"4c7c3c0a-bec2-4acd-9b31-72c8510d4a77","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"9130c3e5-a2b1-41f4-87fc-227b4a44a71f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"9130c3e5-a2b1-41f4-87fc-227b4a44a71f","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"e3b6e68b-2188-4af1-8013-53e1f6b0c98b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"e3b6e68b-2188-4af1-8013-53e1f6b0c98b","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"8f1e6435-0814-42ad-9d71-e11e9d520c80","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"8f1e6435-0814-42ad-9d71-e11e9d520c80","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"92d8ddec-82b0-4bb8-b6b2-97ca81145971","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"92d8ddec-82b0-4bb8-b6b2-97ca81145971","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"e6b075dd-472f-4b1d-9d30-6dd18603c468","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"e6b075dd-472f-4b1d-9d30-6dd18603c468","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"4b5feab0-4a3e-47f7-8cb6-17b6bd951606","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"4b5feab0-4a3e-47f7-8cb6-17b6bd951606","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"d38b5539-0269-47ba-b819-5a551f06e874","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"d38b5539-0269-47ba-b819-5a551f06e874","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"7b3a9eb7-4a02-4064-afed-e22d57caf0d4","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"7b3a9eb7-4a02-4064-afed-e22d57caf0d4","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"1bbbef6b-9a12-424f-9682-6e6c747282ac","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"1bbbef6b-9a12-424f-9682-6e6c747282ac","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"c24c3fec-157e-4eb1-8540-cdad511f8c6c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"c24c3fec-157e-4eb1-8540-cdad511f8c6c","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"94c1050c-d34f-4758-a90c-b1b368ae3710","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"94c1050c-d34f-4758-a90c-b1b368ae3710","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"54b1c275-0ba9-4fa0-a6bc-46c39005ef82","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"54b1c275-0ba9-4fa0-a6bc-46c39005ef82","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"f0097462-1be4-4652-9ce8-9cc315ffab04","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"f0097462-1be4-4652-9ce8-9cc315ffab04","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"d04eff71-8478-432f-9041-e81ff29d10ea","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"d04eff71-8478-432f-9041-e81ff29d10ea","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"ce03522f-ff08-4416-a4d5-81031a3ddf15","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"ce03522f-ff08-4416-a4d5-81031a3ddf15","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"67777708-4fa9-4934-bdf3-3d72a387de67","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"67777708-4fa9-4934-bdf3-3d72a387de67","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"53e732cd-7a38-47a3-b09d-bc40fc4bd9d2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"53e732cd-7a38-47a3-b09d-bc40fc4bd9d2","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"4bd8f6b5-b16d-48bf-8ff7-d4b21752086e","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"4bd8f6b5-b16d-48bf-8ff7-d4b21752086e","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"c12ac5be-d468-4203-a48a-9f45c99f30f3","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"c12ac5be-d468-4203-a48a-9f45c99f30f3","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"fbcbafe1-af8d-4832-9ca4-29437329653c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"fbcbafe1-af8d-4832-9ca4-29437329653c","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"8aa82d4c-92e5-4db2-a242-34a2af4f4441","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"8aa82d4c-92e5-4db2-a242-34a2af4f4441","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"b29ccf2e-995d-45c5-92f3-07af16657a9c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"b29ccf2e-995d-45c5-92f3-07af16657a9c","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"d6c411c0-a11f-4688-b825-6d3bc4fda5c8","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"d6c411c0-a11f-4688-b825-6d3bc4fda5c8","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"f5031ce3-5d4b-4251-8d3d-598f242fedff","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"f5031ce3-5d4b-4251-8d3d-598f242fedff","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"b7ff35dc-af11-4c37-9f3a-56cd9406de3c","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"b7ff35dc-af11-4c37-9f3a-56cd9406de3c","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"0ba40b4a-2b9f-40e4-8564-b3bbb5092999","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"0ba40b4a-2b9f-40e4-8564-b3bbb5092999","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"e695722e-e834-4764-aaf3-48aabe109c4d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"e695722e-e834-4764-aaf3-48aabe109c4d","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"febda8c1-9458-4290-82ef-34488efbae2f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"febda8c1-9458-4290-82ef-34488efbae2f","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"3dc7945c-547e-4def-878e-abf54c011948","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"3dc7945c-547e-4def-878e-abf54c011948","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"e317a2f6-f891-4e9b-b995-a9c149d45a5f","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"e317a2f6-f891-4e9b-b995-a9c149d45a5f","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"e05a272b-aad2-4912-9495-60912c9f2c99","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"e05a272b-aad2-4912-9495-60912c9f2c99","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"1198ebc2-0129-42ef-8ef2-2f16e9ffedc7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"1198ebc2-0129-42ef-8ef2-2f16e9ffedc7","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"7b492e62-9176-4f99-a5c1-3da6dec2ff35","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"7b492e62-9176-4f99-a5c1-3da6dec2ff35","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"f9f234f1-777c-4300-aa39-fe51c96143c7","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"f9f234f1-777c-4300-aa39-fe51c96143c7","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"34f48ba7-8087-42e6-b727-3efc173a9fcf","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"34f48ba7-8087-42e6-b727-3efc173a9fcf","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"33b0c092-352b-4a72-8723-23becd676435","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"33b0c092-352b-4a72-8723-23becd676435","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"6d8a8f3e-2021-43e1-ae44-cc9e4a772f96","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"6d8a8f3e-2021-43e1-ae44-cc9e4a772f96","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"d07d8409-5ead-4930-af4e-97d40445e37d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"d07d8409-5ead-4930-af4e-97d40445e37d","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"29dd11d8-724d-424a-b636-9179ac4edb42","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"29dd11d8-724d-424a-b636-9179ac4edb42","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"23d530b0-5353-4ef2-9804-8264faf4e3c0","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"23d530b0-5353-4ef2-9804-8264faf4e3c0","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"a6a817a9-daa2-468d-b576-b5caaa75a6c1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"a6a817a9-daa2-468d-b576-b5caaa75a6c1","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"f867bc50-67c6-492d-bee6-ae1db6f612fa","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"f867bc50-67c6-492d-bee6-ae1db6f612fa","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"6c98081a-9462-4c20-9724-58a718e0fc54","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"6c98081a-9462-4c20-9724-58a718e0fc54","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"f1f0663a-d469-42ea-b35e-167ef4bb20b1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"f1f0663a-d469-42ea-b35e-167ef4bb20b1","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"460717c4-90b6-4f02-abcc-1b8c5f9aeefe","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"460717c4-90b6-4f02-abcc-1b8c5f9aeefe","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"07855cd4-bbd9-4509-967b-07c0e4c0d1d3","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"07855cd4-bbd9-4509-967b-07c0e4c0d1d3","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"de8cf964-7cfc-46cb-ab02-15a3a22eb7d8","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"de8cf964-7cfc-46cb-ab02-15a3a22eb7d8","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"2e82af01-c91d-4e81-99dd-e11de72d71ff","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"2e82af01-c91d-4e81-99dd-e11de72d71ff","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"e1bd019b-a75c-461a-8caa-0fff4800f24b","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"e1bd019b-a75c-461a-8caa-0fff4800f24b","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"31e473d7-b3c1-4b0c-a8d9-eb7bf43de5c2","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"31e473d7-b3c1-4b0c-a8d9-eb7bf43de5c2","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"e2d0f7f1-ed01-4c8d-b0bc-ac5e91ec20d9","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"e2d0f7f1-ed01-4c8d-b0bc-ac5e91ec20d9","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"37650000-3579-4974-b98d-ab11dcdaf394","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"37650000-3579-4974-b98d-ab11dcdaf394","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"8bf9f852-3649-4907-b7e1-8fc83e18eeb6","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"8bf9f852-3649-4907-b7e1-8fc83e18eeb6","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"04236dd1-5eec-440f-9713-14af63734916","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"04236dd1-5eec-440f-9713-14af63734916","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/login","requestId":"13e3215c-7937-4ee2-898b-df055cd6cad1","service":"api"}
+{"level":"info","message":"Request Finished","path":"/login","requestId":"13e3215c-7937-4ee2-898b-df055cd6cad1","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"22ad5675-2e28-4d61-b50b-dbdf57046089","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"22ad5675-2e28-4d61-b50b-dbdf57046089","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"878aeee3-b406-4ff6-a548-974a5fa25486","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"878aeee3-b406-4ff6-a548-974a5fa25486","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"694072c9-fbe2-4080-bf01-fc3dae84c490","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"694072c9-fbe2-4080-bf01-fc3dae84c490","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"f677be24-6e1f-4250-9f91-6dc9ddaa5816","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"f677be24-6e1f-4250-9f91-6dc9ddaa5816","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"8f399eb6-55ca-40fc-b896-5c6cdb79a006","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"8f399eb6-55ca-40fc-b896-5c6cdb79a006","service":"api"}
+{"level":"info","message":"Request Started","path":"/auth/sign-up","requestId":"ba7a7abb-fe85-499c-b449-003f55d0687d","service":"api"}
+{"level":"info","message":"Request Finished","path":"/sign-up","requestId":"ba7a7abb-fe85-499c-b449-003f55d0687d","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
+{"level":"info","message":"Api is running on Port 4000","service":"api"}
