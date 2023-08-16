@@ -1,3 +1,3 @@
 function admin() {
-    return 1;
+    return 2;
 }
