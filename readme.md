@@ -168,3 +168,90 @@ WHERE
 
 2. Support creating Car, create renal & validate the car cannot be rental double booked
 3. show all the current rentals 
+
+
+
+# Example router dom - 5 ( you need 6 )
+
+import React, {useEffect} from "react";
+import {
+  BrowserRouter as Router,
+  
+  Link,
+  useLocation,
+  Routes,
+  Route
+} from "react-router-dom";
+
+// React Router does not have any opinions about
+// how you should parse URL query strings.
+//
+// If you use simple key=value query strings and
+// you do not need to support IE 11, you can use
+// the browser's built-in URLSearchParams API.
+//
+// If your query strings contain array or object
+// syntax, you'll probably need to bring your own
+// query parsing function.
+
+export default function QueryParamsExample() {
+  return (
+    <Router>
+      <QueryParamsDemo />
+    </Router>
+  );
+}
+
+// A custom hook that builds on useLocation to parse
+// the query string for you.
+function useQuery() {
+  const { search } = useLocation();
+
+  return React.useMemo(() => new URLSearchParams(search), [search]);
+}
+
+function QueryParamsDemo() {
+  let query = useQuery();
+  const vacations = [
+    {vacationId: 1, name:"zanzibar"},
+    {vacationId: 2, name:"hawai"},
+    {vacationId: 3, name:"tel aviv"},
+  ]
+  return (
+    <div>
+      <div>
+        <h2>Vacations</h2>
+        <ul>
+          
+          {vacations.map((v)=>{
+            return <li> <h1> {v.name} </h1> 
+            <Link to={`/editVacation?vid=${v.id}`}>Edit</Link>
+            </li>
+          })}
+         
+        </ul>
+        <Routes>
+              <Route path={"/editVacation"} key={"editVacation"} component={<EditVacation/>} />
+        </Routes>
+      </div>
+    </div>
+  );
+}
+
+function EditVacation({ name }) {
+  const query = useQuery()
+  console.log(query.get("vid"))
+  useEffect(()=>{
+      function getVacationDetails(name){
+        
+      }
+    
+      // getVacationDetails(name)
+  },[])
+  return (
+    <div>
+      <h1> Edit vacation</h1>
+      <h2>{query.get("vid")}</h2>
+    </div>
+  );
+}
