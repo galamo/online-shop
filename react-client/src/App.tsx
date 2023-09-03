@@ -49,7 +49,7 @@ const routes: Array<IRoute> = [
         path: "/customers",
         component: <CustomersPage />,
         key: "customers",
-        label: "Customers"
+        label: "Customers",
     },
     {
         path: "/products",
