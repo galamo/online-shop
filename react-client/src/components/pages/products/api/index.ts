@@ -14,7 +14,7 @@ export interface IProduct {
 }
 
 async function getProductsService(): Promise<Array<IProduct>> {
-    const { data, headers } = await axios.get(`http://localhost:4000/products`)
+    const { data, headers } = await axios.get(`http://35.92.163.80:8081/products`)
     if (!Array.isArray(data)) throw new Error(`Error Please contact support ${headers["x-request-id"]}`)
     const products: Array<IProduct> = data.map(p => {
         return {
@@ -31,7 +31,7 @@ async function getProductsService(): Promise<Array<IProduct>> {
 }
 
 async function addProductToCartService({ productPrice, quantity, productId }: IAddToProduct): Promise<boolean> {
-    const { data, headers } = await axios.post(`http://localhost:4000/cart/add-product`, {
+    const { data, headers } = await axios.post(`http://35.92.163.80:8081/cart/add-product`, {
         productPrice, quantity, productId, cartId: localStorage.getItem("cartId")
     })
     if (data.message === "ok") return true;
@@ -40,7 +40,7 @@ async function addProductToCartService({ productPrice, quantity, productId }: IA
 }
 
 async function getUserInfo(): Promise<boolean> {
-    const { data } = await axios.get(`http://localhost:4000/user/info`, {
+    const { data } = await axios.get(`http://35.92.163.80:8081/user/info`, {
         headers: {
             authorization: localStorage.getItem("token")
         }

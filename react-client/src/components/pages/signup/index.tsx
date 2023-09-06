@@ -29,7 +29,7 @@ const RegistrationComponent = () => {
         }
 
         try {
-            const result = await axios.post("http://localhost:4000/auth/sign-up", signUpPayload)
+            const result = await axios.post("http://35.92.163.80:8081/auth/sign-up", signUpPayload)
             alert(result.data.message)
             setTimeout(() => { navigate("/login") }, 500)
         } catch (ex) {

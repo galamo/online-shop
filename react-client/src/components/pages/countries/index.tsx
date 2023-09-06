@@ -8,7 +8,7 @@ import { WithLoading } from "../../ui-components/with-loading";
 import { useNavigate } from "react-router-dom";
 
 
-const countriesUrl: string = "http://localhost:4000/countries";
+const countriesUrl: string = "http://35.92.163.80:8081/countries";
 
 export default function CountriesPage() {
     const navigate = useNavigate()

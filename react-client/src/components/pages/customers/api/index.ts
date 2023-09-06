@@ -11,7 +11,7 @@ export interface ICustomer {
 }
 
 async function getAllCustomersService(limit: number = 10): Promise<Array<ICustomer>> {
-    const { data, headers } = await axios.get(`http://localhost:4000/customers?extended=true&limit=${limit}`)
+    const { data, headers } = await axios.get(`http://35.92.163.80:8081/customers?extended=true&limit=${limit}`)
     if (!Array.isArray(data)) throw new Error(`Error Please contact support ${headers["x-request-id"]}`)
 
     const customers: Array<ICustomer> = data.map(c => {
@@ -32,14 +32,14 @@ async function getAllCustomersService(limit: number = 10): Promise<Array<ICustom
 
 
 async function getCustomersCountService(): Promise<number> {
-    const { data } = await axios.get(`http://localhost:4000/customers/count`)
+    const { data } = await axios.get(`http://35.92.163.80:8081/customers/count`)
     // if (!Array.isArray(data)) throw new Error(`Error Please contact support ${headers["x-request-id"]}`)
     return data.count as number;
 }
 
 
 async function searchCustomersService(value: string): Promise<Array<ICustomer>> {
-    const { data, headers } = await axios.get(`http://localhost:4000/customers/search?q=${value}`)
+    const { data, headers } = await axios.get(`http://35.92.163.80:8081/customers/search?q=${value}`)
     if (!Array.isArray(data)) throw new Error(`Error Please contact support ${headers["x-request-id"]}`)
 
     const customers: Array<ICustomer> = data.map(c => {

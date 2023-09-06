@@ -6,7 +6,7 @@ export default function AddProductPage() {
 
     async function addProduct() {
         try {
-            const result = await axios.post("http://localhost:4000/products/new", {
+            const result = await axios.post("http://35.92.163.80:8081/products/new", {
                 productName: "milk",
                 price: 20,
                 category: 12

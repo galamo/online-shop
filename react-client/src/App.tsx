@@ -108,19 +108,13 @@ function App() {
                         <input id="formatB" type='radio' name="format" /> yy/MM/dd HH:mm:SS
                     </div>
                 </div>
-                <div style={{ zIndex: 999, width: "100%", top: 0, left: 0, position: "absolute", textAlign: "right" }}>
+                <div >
                     <Button onClick={logoutHandler}> Log Out</Button>
                 </div>
-                <div style={{ marginTop: "50px" }}>
-                    <div style={{
-                        background: "red",
-                        position: "absolute",
-                        top: "0px",
-                        display: "flex",
-                        flex: "1 1"
-                    }}>
+                <div >
+                    <div >
                         {routes.filter(showRoutesPerRole).filter(r => r.label).map((route: IRoute) => {
-                            return <Link key={route.label} to={`${route.path}/${r.label}`} > {route.label} </Link>
+                            return <Link key={route.label} to={`${route.path}`} > {route.label} </Link>
                         })}
                     </div>
                     <Routes>

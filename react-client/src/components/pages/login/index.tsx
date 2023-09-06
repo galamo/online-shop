@@ -53,7 +53,7 @@ const LoginForm = () => {
             password
         }
         try {
-            const result = await axios.post("http://localhost:4000/auth/login", loginPayload)
+            const result = await axios.post("http://35.92.163.80:8081/auth/login", loginPayload)
             localStorage.setItem("token", result.data.token)
             setTimeout(() => { navigate("/countries") }, 500)
         } catch (ex) {
